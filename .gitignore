@@ -7,3 +7,8 @@ playwright-report/
 blob-report/
 playwright/.cache/
 dist/
+
+# Run-time permission snapshots (fetched live; never committed or read back)
+reports/permission-entities.json
+reports/permission-combinations.json
+utils/config/permissions/permission-entities.json
