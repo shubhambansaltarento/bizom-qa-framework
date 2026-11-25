@@ -1,0 +1,2262 @@
+{
+  "runAt": "2026-11-25T07:25:29.711Z",
+  "baseUrl": "https://devarun.bizomdev.in",
+  "entitiesFetchedAt": "2026-11-25T07:25:27.215Z",
+  "total": 44,
+  "passed": 44,
+  "failed": 0,
+  "results": [
+    {
+      "module": "User Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 181,
+      "recordsTotal": 8,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "User_Add",
+          "description": "Creating new user",
+          "url": "users/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "User_Edit",
+          "description": "Editing existing user",
+          "url": "users/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "User_Information",
+          "description": "View user info",
+          "url": "users/view",
+          "isBlocked": "0"
+        },
+        {
+          "action": "User_List",
+          "description": "List of users",
+          "url": "users/ajaxuserindex",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Attendances",
+          "description": "Web UI to Edit Attendances",
+          "url": "attendances/",
+          "isBlocked": "0"
+        },
+        {
+          "action": "User_Beatwise_Dashboard",
+          "description": "User Beatwise Dashboard",
+          "url": "users/beatwisedashboard",
+          "isBlocked": "0"
+        },
+        {
+          "action": "User_hierarchyview",
+          "description": "User hierarchyview",
+          "url": "users/hierarchyview",
+          "isBlocked": "0"
+        },
+        {
+          "action": "User_Approve_Edit_Request",
+          "description": "User Approve Edit Request",
+          "url": "users/approveEditRequest",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Outlet Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 301,
+      "recordsTotal": 8,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Outlet_Add",
+          "description": "Creating new outlet",
+          "url": "outlets/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Outlet_Edit",
+          "description": "Editing new outlets",
+          "url": "outlets/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Outlet_Info",
+          "description": "View outlet info",
+          "url": "outlets/view",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Outlet_Transfer",
+          "description": "Transfer outlet",
+          "url": "outlets/transferoutlets",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Outlet_Target_Performance",
+          "description": "Outlet Target Performance",
+          "url": "reports/outletwisetarget",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Company_Organisation_List_View",
+          "description": "Company Organisation List View",
+          "url": "companies/organisationlistview",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_Outlet_Types",
+          "description": "Add Outlet Types",
+          "url": "outletTypes/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Retailer_Outlet_Onboarding",
+          "description": "Retailer Onboard/edit/deactivate",
+          "url": "outlets/retaileronboard",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Setting Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 463,
+      "recordsTotal": 3,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Setting_Configuration",
+          "description": "Configure the settings",
+          "url": "settings/allsettings",
+          "isBlocked": "0"
+        },
+        {
+          "action": "General_Setting_configuration",
+          "description": "General Setting configurations",
+          "url": "settings/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Settings_Override_configuration",
+          "description": "Setting Override configurations",
+          "url": "settings/settingsoverrides",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Order Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 476,
+      "recordsTotal": 10,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Primary_Order_Add",
+          "description": "Place Primary Order ",
+          "url": "payments/sale/placeorderfordistributor",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Secondary_Order_Add",
+          "description": "Place Secondary Order",
+          "url": "payments/sale/order",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Orders_List",
+          "description": "Display all orders",
+          "url": "orders/view",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Orders_Loadout_Sheet",
+          "description": "Orders Loadout Sheet",
+          "url": "orders/fulfilledorderloadoutsheet",
+          "isBlocked": "0"
+        },
+        {
+          "action": "My_Order",
+          "description": "My Order",
+          "url": "orders/getdistributororder",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View_Order_Reports",
+          "description": "View Order Reports",
+          "url": "reports/orderreport",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit_Order_Reports",
+          "description": "Edit Order Reports",
+          "url": "orders/editedorderreport",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Fulfill_Order_reports",
+          "description": "Fulfill Order reports",
+          "url": "reports/fulfillorderreport",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_Order_States",
+          "description": "List of Order States",
+          "url": "orderstates/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Asset_order_Report",
+          "description": "Asset order Report",
+          "url": "assetorders/assetorderreport",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Sale Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 287,
+      "recordsTotal": 6,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Sale_add",
+          "description": "To Making the sale",
+          "url": "payments/sale",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Payment_List",
+          "description": "Display all payments",
+          "url": "payments/view",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Sales_Report",
+          "description": "Sales Report",
+          "url": "payments/salesreport",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Salereturn_report",
+          "description": "Salereturn report",
+          "url": "payments/salesreturnreport",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Secondary_Sale_Report",
+          "description": "Secondary Sale Report",
+          "url": "reports/secondarysalereport",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_different_Sale_States",
+          "description": "List of different Sale States",
+          "url": "salestates/index",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Menus Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 426,
+      "recordsTotal": 5,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Menus_Configuration",
+          "description": "Menus configration like add, edit and list of menus",
+          "url": "menus/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_menuurls",
+          "description": "List of menuurls",
+          "url": "menuurls/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_menuurl",
+          "description": "Add new menuurl",
+          "url": "menuurls/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View_Menu_url",
+          "description": "View Menu url",
+          "url": "menuurls/view",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit_Menu_url",
+          "description": "Edit Menu url",
+          "url": "menuurls/edit",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Formdefinition Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 322,
+      "recordsTotal": 1,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Formdefinitions_Configuration",
+          "description": "Formdefination configration like add, edit and list of formdefinitions",
+          "url": "formdefinitions/index",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Collection Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 456,
+      "recordsTotal": 3,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "SelfPrimaryCollection",
+          "description": "Self collections for manager, where the url is \"collections/collectionInvoicewise/primaryselfcollection\", which will be default unapproved regardless of the settings.",
+          "url": "collections/collectionInvoicewise/primaryselfcollection",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Depo_wise_Collection",
+          "description": "Depo wise Collection",
+          "url": "collections/depowiseCollectionreport",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Collections_Page",
+          "description": "Collections Page",
+          "url": "collections/collectionInvoicewise",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Opportunity Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 496,
+      "recordsTotal": 7,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "addOpportunityTask",
+          "description": "Lead management systems. Add opportunity tasks.",
+          "url": "tasks/addOpportunityTask",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_lead_score",
+          "description": "Add new lead score",
+          "url": "leadscores/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_Lead_score",
+          "description": "List of Lead score",
+          "url": "leadscores/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_Stages",
+          "description": "Add Stages",
+          "url": "stages/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_Stages",
+          "description": "List of Stages",
+          "url": "stages/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_Tasks",
+          "description": "List of Tasks",
+          "url": "tasks/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Manage_Leads",
+          "description": "Manage Leads",
+          "url": "outlets/manageLeads",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Primary Discount Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 368,
+      "recordsTotal": 1,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Primary_Discount_Configs",
+          "description": "New UI to check the configurations for warehouses for enabling / disabling the primary discount on the secondary transactions.",
+          "url": "warehouses/primarydiscountindex",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Push Notification",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 387,
+      "recordsTotal": 2,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Push_Notification",
+          "description": "Add notifications",
+          "url": "pushnotification/pushnotification",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Pushregistration_Notify",
+          "description": "UI to send notifications to users via pushregistration ids",
+          "url": "pushregistrations/sendnotification",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "SMS",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 342,
+      "recordsTotal": 1,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "SMS_Add",
+          "description": "Add smss",
+          "url": "sms/sms",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "E-Invoice Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 302,
+      "recordsTotal": 5,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Generate_IRN",
+          "description": "API to generate an IRN manually.",
+          "url": "onlineinvoices/submitInvoice",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Cancel_IRN",
+          "description": "API to cancel an IRN manually.",
+          "url": "onlineinvoices/cancelInvoice",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Manage_E-Invoice_Portal_Credentials",
+          "description": "Web UI to manage the warehouse/distributor GST credentials for the e-invoicing.",
+          "url": "onlineinvoices/manageCredentials",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Check_Credentials",
+          "description": "API to check if the entered E-Invoice credentials are valid.",
+          "url": "onlineinvoices/generateToken",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Reset_Credentials",
+          "description": "API reset the entered E-Invoice credentials.",
+          "url": "onlineinvoices/resetCredentials",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Pjp Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 259,
+      "recordsTotal": 4,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Create_Beat",
+          "description": "Web UI and API to add a new beat.",
+          "url": "beats/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit_Beat",
+          "description": "Web UI and API to edit beat / move outlets within different beats.",
+          "url": "beats/editbeat",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_Beats",
+          "description": "List of beats",
+          "url": "beats/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Pjp_Planning",
+          "description": "Web UI and API to update the PJP for a user.",
+          "url": "pjps/updatepjp",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Warehouse Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 208,
+      "recordsTotal": 9,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "View_warehouse_distributor",
+          "description": "Web UI and API to index a distributor.",
+          "url": "warehouses/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Create_distributor",
+          "description": "Web UI and API to add a distributor.",
+          "url": "warehouses/adddistributor",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit_distributor",
+          "description": "Web UI and API to edit a distributor.",
+          "url": "warehouses/editdistributor",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Distributor mappings",
+          "description": "Web UI to map distributor to warehouses.",
+          "url": "distributordepomappings/adddepomapping",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_warehousetype",
+          "description": "Add new warehousetype.",
+          "url": "warehousetypes/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View_warehousetype",
+          "description": "View warehousetype",
+          "url": "warehousetypes/view",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_warehouse_category",
+          "description": "Add new warehouse category",
+          "url": "warehousecategories/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_warehouse_categories",
+          "description": "List of warehouse categories",
+          "url": "warehousecategories/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Distributor_List_under_warehouses",
+          "description": "Distributor List under warehouses",
+          "url": "warehouses/distributorlist",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Inventory Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 240,
+      "recordsTotal": 11,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Index_inventory",
+          "description": "Web UI and API to view the inventories.",
+          "url": "inventories/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Update_inventories",
+          "description": "Web UI and API to update inventory status.",
+          "url": "inventories/changestatus",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Insert_inventories",
+          "description": "Web UI to add to inventories.",
+          "url": "inventories/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Audit_inventory",
+          "description": "Web UI to audit inventories.",
+          "url": "inventories/auditInventoryTypes",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Tag_SerialNo_To_Inventory",
+          "description": "Web interface for tagging serial numbers to inventory items.",
+          "url": "inventories/mapinventorywithserialnumber",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Set_up_Alert_Level_for_Inventory",
+          "description": "Set up Alert Level for Inventory",
+          "url": "inventories/alertlevel",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Inventory_transfer_history",
+          "description": "Inventory transfer history",
+          "url": "inventories/transferhistory",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Inventory_transaction_report",
+          "description": "Inventory transaction report",
+          "url": "inventories/inventorytransactionreport",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_Inventory_type",
+          "description": "Add new Inventory type",
+          "url": "inventorytypes/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_Inventory_types",
+          "description": "List of Inventory types",
+          "url": "inventorytypes/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit_Inventory_Type",
+          "description": "Edit Inventory Type",
+          "url": "inventorytypes/edit",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Area Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 218,
+      "recordsTotal": 3,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Edit_area",
+          "description": "Web Ui to edit area",
+          "url": "areas/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_Area",
+          "description": "Add new Area",
+          "url": "areas/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Transfer_Areas",
+          "description": "Transfer Areas",
+          "url": "areas/transferareas",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Loadin-Loadout Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 202,
+      "recordsTotal": 7,
+      "blockedCount": 1,
+      "actions": [
+        {
+          "action": "Manage",
+          "description": "Web UI to manage loadouts.",
+          "url": "loadouts/manage",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Loadin",
+          "description": "API to manage loadin.",
+          "url": "loadouts/loadin",
+          "isBlocked": "1"
+        },
+        {
+          "action": "List_of_Loadouts",
+          "description": "List of Loadouts",
+          "url": "loadouts/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Loadouts",
+          "description": "Loadouts",
+          "url": "loadouts/viewmultipleloadout",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List _of_Loadoutsheet",
+          "description": "List of Loadoutsheet",
+          "url": "loadoutsheets/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Order_Loadsheet",
+          "description": "Order Loadsheet",
+          "url": "orders/fulfilledorderloadoutsheet",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Settle_Loadsheet",
+          "description": "Settle Loadsheet",
+          "url": "payments/settleloadsheet",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Region Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 263,
+      "recordsTotal": 20,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "ViewAllStates",
+          "description": "Web UI to view the states.",
+          "url": "states/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "ViewState",
+          "description": "Web UI to view a state.",
+          "url": "states/view",
+          "isBlocked": "0"
+        },
+        {
+          "action": "AddStates",
+          "description": "Web UI to add a state.",
+          "url": "states/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "EditStates",
+          "description": "Web UI to edit a state.",
+          "url": "states/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "ViewAllDistricts",
+          "description": "Web UI to view the districts.",
+          "url": "districts/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "ViewDistrict",
+          "description": "Web UI to view a district.",
+          "url": "districts/view",
+          "isBlocked": "0"
+        },
+        {
+          "action": "AddDistricts",
+          "description": "Web UI to add a district.",
+          "url": "districts/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "EditDistricts",
+          "description": "Web UI to edit a district.",
+          "url": "districts/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "ViewAllCities",
+          "description": "Web UI to view the cities.",
+          "url": "cities/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "ViewCity",
+          "description": "Web UI to view a city.",
+          "url": "cities/view",
+          "isBlocked": "0"
+        },
+        {
+          "action": "AddCities",
+          "description": "Web UI to add a city.",
+          "url": "cities/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "EditCities",
+          "description": "Web UI to edit a city.",
+          "url": "cities/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "ViewAllZones",
+          "description": "Web UI to view the zones.",
+          "url": "zones/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "ViewZone",
+          "description": "Web UI to view a zone.",
+          "url": "zones/view",
+          "isBlocked": "0"
+        },
+        {
+          "action": "AddZones",
+          "description": "Web UI to add a zone.",
+          "url": "zones/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "EditZones",
+          "description": "Web UI to edit a zone.",
+          "url": "zones/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "ViewSub-Zones",
+          "description": "Web UI to view the sub-zones.",
+          "url": "subzones/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "ViewSub-Zone",
+          "description": "Web UI to view a sub-zone.",
+          "url": "subzones/view",
+          "isBlocked": "0"
+        },
+        {
+          "action": "AddSub-Zones",
+          "description": "Web UI to add a sub-zone.",
+          "url": "subzones/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "EditSub-Zones",
+          "description": "Web UI to edit a sub-zone.",
+          "url": "subzones/edit",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Sku Visibility",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 194,
+      "recordsTotal": 3,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Skuvisibility_Add",
+          "description": "Creating SKUs Visibility. The feature is used to show or hide Skus based on outlet level and its attributes",
+          "url": "skuvisibilities/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Skuvisibility_Edit",
+          "description": "Editing SKUs Visibility. The feature is used to show or hide Skus based on outlet level and its attributes",
+          "url": "skuvisibilities/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Skuvisibility_List",
+          "description": "List of SKUs Visibility. The feature is used to show or hide Skus based on outlet level and its attributes",
+          "url": "skuvisibilities/index",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Claim Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 178,
+      "recordsTotal": 6,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "viewClaims",
+          "description": "view all claims",
+          "url": "claims/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Report_of_claims",
+          "description": "Report of claims",
+          "url": "claims/claimsreport",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_Claim",
+          "description": "Add new Claim",
+          "url": "claims/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Approval_of_Claims",
+          "description": "Approval of Claims",
+          "url": "claims/approveclaims",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_claim_approver",
+          "description": "Add new claim approver",
+          "url": "claimapprovals/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_claim_approvals",
+          "description": "List of claim approvals",
+          "url": "claimapprovals/index",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Claim Limit Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 193,
+      "recordsTotal": 9,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Claim_Limit_Add_Edit",
+          "description": "Web UI to add or edit individual claim limits.",
+          "url": "claimtypes/manageClaimLimits",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View_All_Claim_Limits",
+          "description": "Web UI to view all claim limit groups.",
+          "url": "claimlimitconfigurations/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Claim_Limit_Group_Add",
+          "description": "Web UI to add claim limit groups.",
+          "url": "claimlimitgroups/addGroup",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Claim_Limit_Group_Edit",
+          "description": "Web UI to edit existing claim limit groups.",
+          "url": "claimlimitgroups/editGroup",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View_All_Claim_Limit_Group",
+          "description": "Web UI to view all claim limit groups.",
+          "url": "claimlimitgroups/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_user_claim_field_limits",
+          "description": "Add new user claim field limits",
+          "url": "userclaimfieldlimits/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_user_claim_field_limits",
+          "description": "List of user claim field limits",
+          "url": "userclaimfieldlimits/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_orgclaims",
+          "description": "List of orgclaims",
+          "url": "orgclaims/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_claimtype",
+          "description": "Add new claimtype",
+          "url": "claimtypes/add",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Segmentation Module",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 157,
+      "recordsTotal": 7,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "View_Segment_Change_Requests",
+          "description": "Web UI to view the list of all the segment change requests made on entities.",
+          "url": "segmentchangerequests/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View_Segments",
+          "description": "Web UI to view the list of all the segments.",
+          "url": "segments/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_Segment",
+          "description": "Web UI to add a new segment.",
+          "url": "segments/addSegment",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit_Segment",
+          "description": "Web UI to edit an existing segment.",
+          "url": "segments/editSegment",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View_Segment_Rules",
+          "description": "Web UI to view all segment rules.",
+          "url": "segmentrules/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_Segment_Rule",
+          "description": "Web UI to add a new segment rule.",
+          "url": "segmentrules/addRule",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit_Segment_Rule",
+          "description": "Web UI to edit an existing segment rule.",
+          "url": "segmentrules/editRule",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Delivery Challan Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 159,
+      "recordsTotal": 4,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Delivery_Challan_Type_Index_UI",
+          "description": "Web UI to view all delivery challan types.",
+          "url": "deliverychallantypes/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Delivery_Challan_Type_Add_UI",
+          "description": "Web UI to add a new delivery challan type.",
+          "url": "deliverychallantypes/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Delivery_Challan_Type_Edit_UI",
+          "description": "Web UI to edit an existing delivery challan type.",
+          "url": "deliverychallantypes/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Delivery_Challan_Type_Edit_Status",
+          "description": "Web API to update the status of an existing delivery challan type.",
+          "url": "deliverychallantypes/updateStatus",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Incentive Module Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 173,
+      "recordsTotal": 8,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "View Incentive Type",
+          "description": "Web UI to view all incentive types.",
+          "url": "incentivetypes/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add Incentive Type",
+          "description": "Web UI to add a new incentive type.",
+          "url": "incentivetypes/addType",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit Incentive Type",
+          "description": "Web UI to edit an existing incentive type.",
+          "url": "incentivetypes/editType",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View Incentive Entity Mappings",
+          "description": "Web UI to view all incentive entity mappings.",
+          "url": "incentiveentitymappings/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Update Incentive Entity Mapping API",
+          "description": "Web API to update the status of an existing incentive entity mapping.",
+          "url": "incentiveentitymappings/updateStatus",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View Incentive Configurations",
+          "description": "Web UI to view all incentive configurations.",
+          "url": "incentiveconfigurations/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Update Incentive Configuration API",
+          "description": "Web API to update the status of an existing incentive entity mapping.",
+          "url": "incentiveconfigurations/updateStatus",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Update Incentive Configuration API",
+          "description": "Web UI to view all incentive audits.",
+          "url": "incentiveaudits/userWiseIncentiveAudits",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Creditnotetype Module",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 190,
+      "recordsTotal": 5,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Add_Creditnotetype",
+          "description": "Web UI to Add creditnotetype",
+          "url": "creditnotetypes/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit_Creditnotetype",
+          "description": "Web UI to Edit creditnotetype.",
+          "url": "creditnotetypes/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Listof_Creditnotetype",
+          "description": "Web UI to List of all creditnotetype",
+          "url": "creditnotetypes/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_Creditnotetypemappings",
+          "description": "Web UI to Add creditnotetypemappings",
+          "url": "creditnotetypemappings/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Listof_Creditnotetypemappings",
+          "description": "Web UI to List of all creditnotetypemappings",
+          "url": "creditnotetypemappings/index",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "E-Invoice Nepal Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 195,
+      "recordsTotal": 4,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Generate_IRN",
+          "description": "API to generate an IRN manually.",
+          "url": "onlinenepalinvoices/submitInvoice",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Manage_E-Invoice_Portal_Credentials",
+          "description": "Web UI to manage the warehouse/distributor GST credentials for the e-invoicing.",
+          "url": "onlinenepalinvoices/manageCredentials",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Check_Credentials",
+          "description": "API to check if the entered E-Invoice credentials are valid.",
+          "url": "onlinenepalinvoices/generateToken",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Reset_Credentials",
+          "description": "API reset the entered E-Invoice credentials.",
+          "url": "onlinenepalinvoices/resetCredentials",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "SKU Grouping",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 171,
+      "recordsTotal": 6,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "View SKU Group Types",
+          "description": "(For Hershey) Web UI to view the SKU group types.",
+          "url": "groupskunittypes/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add SKU Group Type",
+          "description": "(For Hershey) Web UI to add a new SKU group types.",
+          "url": "groupskunittypes/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit SKU Group Type",
+          "description": "(For Hershey) Web UI to edit an existing SKU group type.",
+          "url": "groupskunittypes/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View SKU Groups",
+          "description": "(For Hershey) Web UI to view all SKU groups.",
+          "url": "groupskunits/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add SKU Groups",
+          "description": "(For Hershey) Web UI to add a new SKU group.",
+          "url": "groupskunits/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit SKU Groups",
+          "description": "(For Hershey) Web UI to edit an existing SKU group.",
+          "url": "groupskunits/edit",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Scheme Capping Configuration",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 232,
+      "recordsTotal": 3,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Add_Configuration",
+          "description": "Web UI to add a new scheme capping configuration.",
+          "url": "schemecappingconfigurations/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View_Configurations",
+          "description": "Web UI to view all the scheme capping configurations.",
+          "url": "schemecappingconfigurations/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit_Configuration",
+          "description": "Web UI to edit an existing scheme capping configuration.",
+          "url": "schemecappingconfigurations/edit",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Payee Configuration",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 237,
+      "recordsTotal": 1,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "index",
+          "description": "Web UI to see payee configuration.",
+          "url": "payeedetails/index",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Town Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 223,
+      "recordsTotal": 3,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "index",
+          "description": "Web UI to see index of towns.",
+          "url": "towns/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "add",
+          "description": "Web UI to add towns.",
+          "url": "towns/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "edit",
+          "description": "Web UI to edit towns.",
+          "url": "towns/edit",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Business Types Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 294,
+      "recordsTotal": 4,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "View_Business_Types",
+          "description": "Web UI to view business types.",
+          "url": "businesstypes/view",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit_Business_Types",
+          "description": "Web UI to edit business types.",
+          "url": "businesstypes/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_Businesstypes",
+          "description": "List of Businesstypes",
+          "url": "businesstypes/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_businesstype ",
+          "description": "Add new businesstype",
+          "url": "businesstypes/add",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Scheme",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 374,
+      "recordsTotal": 8,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Add_Scheme_new",
+          "description": "Web UI to add a new scheme.",
+          "url": "schemes/addscheme",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_Scheme_if_multischemedisable",
+          "description": "Web UI to add scheme for multischemedisbale",
+          "url": "schemes/addnew",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_Trade_scheme",
+          "description": "Web UI to add trade scheme.",
+          "url": "schemes/addtradescheme",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Apply_QPS_view",
+          "description": "Web UI to apply QPS View",
+          "url": "schemes/applyqpsview",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View_scheme",
+          "description": "Web UI to view scheme",
+          "url": "schemes/viewscheme",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Scheme_index",
+          "description": "Web UI to Scheme Index",
+          "url": "schemes/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Scheme_budget",
+          "description": "Scheme Budget",
+          "url": "schemebudgets/upload",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Assign_scheme",
+          "description": "Assign Scheme",
+          "url": "schemes/assignnewscheme",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Schemegroups",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 214,
+      "recordsTotal": 4,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Index_Schemegroups",
+          "description": "Web UI to index schemegroups",
+          "url": "schemegroups/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "New_index_schemegroups",
+          "description": "Web UI to newindex schemegroups",
+          "url": "schemegroups/indexnew",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Index_trade_schemegroups",
+          "description": "Web UI to indextrade schemegroups.",
+          "url": "schemegroups/indextrade",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Approve_for_schemegroup",
+          "description": "Approve for schemegroup",
+          "url": "schemegroups/approve",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Asset Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 281,
+      "recordsTotal": 13,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "NewAssetAssign",
+          "description": "Assigning new asset",
+          "url": "assets/newassetsassign",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Assetserialnumbermappings_Index",
+          "description": "Web UI to see index of Assetserialnumbermappings",
+          "url": "assetserialnumbermappings/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Assetserialnumbermappings_Edit",
+          "description": "Web UI to Edit Assetserialnumbermappings",
+          "url": "assetserialnumbermappings/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Assetserialnumbertransactions_Index",
+          "description": "Web UI to see the index of Assetserialnumbertransactions",
+          "url": "assetserialnumbertransactions/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Transitstates_Index",
+          "description": "Web UI to see the index of Transitstates",
+          "url": "transitstates/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Transitstates_Edit",
+          "description": "Web UI to Edit Transitstates",
+          "url": "transitstates/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Asset_Audit_Report",
+          "description": "Asset Audit Report",
+          "url": "assetaudits/assetauditreport",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Asset_Order_Report",
+          "description": "Asset Order Report",
+          "url": "assetorders/assetorderreport",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_Asset",
+          "description": "Add new Asset",
+          "url": "assets/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_Assets",
+          "description": "List of Assets",
+          "url": "assets/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit_Existing_Asset",
+          "description": "Edit Existing Asset",
+          "url": "assets/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View_Asset ",
+          "description": "View Asset",
+          "url": "assets/view",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Assign_assets",
+          "description": "Assign assets",
+          "url": "assets/assetsassign",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "skulines Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 280,
+      "recordsTotal": 3,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "skuline_add",
+          "description": "Web UI to add skuline",
+          "url": "skulines/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "skuline_Index",
+          "description": "Web UI to index skuline",
+          "url": "skulines/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "skuline_Edit",
+          "description": "Web UI to Edit skuline",
+          "url": "skulines/edit",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Skunit Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 381,
+      "recordsTotal": 33,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "SKU_Add",
+          "description": "Creating new SKU",
+          "url": "skunits/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "SKU_Edit",
+          "description": "Editing the existing SKU",
+          "url": "skunits/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "SKU_List",
+          "description": "View SKU List",
+          "url": "skunits/ajaxskuindex",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Categories_Add",
+          "description": "Creating Category",
+          "url": "categories/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "SubCategory_Add",
+          "description": "Create SubCategory",
+          "url": "subcategories/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Brands Wub_Add",
+          "description": "Create Brands/Wub brand",
+          "url": "brands/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Packing_Add",
+          "description": "Create Packing",
+          "url": "packagings/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Subpacks_Add",
+          "description": "Create Subpacks",
+          "url": "subpacks/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Units_Add",
+          "description": "Create Units",
+          "url": "units/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "ERP Groups_Add",
+          "description": "Create ERP Groups",
+          "url": "erpgroups/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Size_Add",
+          "description": "Create Sizes",
+          "url": "sizes/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Variant_Add",
+          "description": "Create Variants",
+          "url": "variants/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Category_Edit",
+          "description": "Edit Category",
+          "url": "categories/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "SubCategory_Edit",
+          "description": "Edit SubCategory",
+          "url": "subcategories/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Brands/Wub_Edit",
+          "description": "Edit Brands/Wub brand",
+          "url": "brands/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Packing_Edit",
+          "description": "Edit Packing",
+          "url": "packagings/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Subpacks_Edit",
+          "description": "Edit Subpacks",
+          "url": "subpacks/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Units_Edit",
+          "description": "Edit Units",
+          "url": "units/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "ERP Groups_Edit",
+          "description": "Edit ERP Groups",
+          "url": "erpgroups/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit Sizes",
+          "description": "Edit Sizes",
+          "url": "sizes/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit Variant",
+          "description": "Edit Variants",
+          "url": "variants/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Category_View",
+          "description": "View Category",
+          "url": "categories/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "SubCategory_View",
+          "description": "View SubCategory",
+          "url": "subcategories/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Brands/Wub_View",
+          "description": "View Brands/Wub brand",
+          "url": "brands/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Packing_View",
+          "description": "View Packing",
+          "url": "packagings/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Subpacks_View",
+          "description": "View Subpacks",
+          "url": "subpacks/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Units_View",
+          "description": "View Units",
+          "url": "units/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "ERP Groups_View",
+          "description": "View ERP Groups",
+          "url": "erpgroups/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View Sizes",
+          "description": "View Sizes",
+          "url": "sizes/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View Variants",
+          "description": "View Variants",
+          "url": "variants/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_competitor_sku ",
+          "description": "Add new competitor sku",
+          "url": "competitorskunits/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Price_change_Report",
+          "description": "Price change Report",
+          "url": "skunits/getpricechangehistory",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Change_SKU_Order",
+          "description": "Change SKU Order",
+          "url": "skunits/reordersku",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Salereturn Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 213,
+      "recordsTotal": 3,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Salesman_Sale_Returns",
+          "description": "Salesman Sale Returns",
+          "url": "salemansalesreturns/salereturns",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Salesman_Sale_Returns_Primary",
+          "description": "Salesman Sale Returns Primary",
+          "url": "salemansalesreturns/salereturns/primarysalereturn",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Sale_Return_Requests",
+          "description": "Sale Return Requests",
+          "url": "salereturnrequests/index",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Credit Note Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 268,
+      "recordsTotal": 2,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Add_new_Credit_Note",
+          "description": "Add new Credit Note",
+          "url": "cdnotes/addcreditnote",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Credit_and_Debit_notes",
+          "description": "Credit and Debit notes",
+          "url": "cdnotes/creditanddebitnotes",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Workflow Reasons Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 204,
+      "recordsTotal": 2,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "List_of_Workflowreasons",
+          "description": "List of Workflowreasons",
+          "url": "workflowreasons/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_workflowreason",
+          "description": "Add new workflowreason",
+          "url": "workflowreasons/add",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Batches Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 261,
+      "recordsTotal": 4,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "List_of_Batches",
+          "description": "List of Batches",
+          "url": "batches/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_Batch",
+          "description": "Add new Batch",
+          "url": "batches/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit_existing_Batch",
+          "description": "Edit existing Batch",
+          "url": "batches/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View_the_batch",
+          "description": "View the batch",
+          "url": "batches/view",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "MDM Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 261,
+      "recordsTotal": 1,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "MDM_Page",
+          "description": "MDM Page",
+          "url": "mdms/index",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Collateral Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 174,
+      "recordsTotal": 4,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "List_of_Pops",
+          "description": "List of Pops",
+          "url": "pops/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_Pop",
+          "description": "Add new Pop",
+          "url": "pops/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit_Existing_pop",
+          "description": "Edit Existing pop",
+          "url": "pops/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_Collaterals",
+          "description": "List of Collaterals",
+          "url": "collaterals/index",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Vehicle Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 228,
+      "recordsTotal": 4,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Add_New_Vehicle",
+          "description": "Add New Vehicle",
+          "url": "vehicles/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit_Existing_Vehicle",
+          "description": "Edit Existing Vehicle",
+          "url": "vehicles/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Delete_Existing_Vehicle",
+          "description": "Delete Existing Vehicle",
+          "url": "vehicles/delete",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Map_User_To_Vehicle",
+          "description": "Map User To Vehicle",
+          "url": "vehicles/mapUsertoVehicle",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    }
+  ]
+}

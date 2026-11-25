@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "permissions": "tsx utils/config/permissions/fetchPermissionData.ts",
+    "permissions:all": "tsx utils/config/permissions/fetchPermissionData.ts --role \"*\" --designation \"*\" --user \"*\"",
+    "permissions:admin": "tsx utils/config/permissions/fetchPermissionData.ts --role ADMIN --print --out admin-permissions",
+    "settings": "tsx utils/config/settings/fetchSettings.ts"
   },
   "repository": {
     "type": "git",

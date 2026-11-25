@@ -183,7 +183,8 @@ export function getPermissionCombinations(entities: PermissionEntities): Permiss
     }))));
 }
 
-async function login(page: Page) {
+/** Logs in with BIZOM_USERNAME / BIZOM_PASSWORD from .env. */
+export async function login(page: Page) {
   await page.goto(env('BIZOM_BASE_URL') + env('LOGIN_PATH'));
   await page.fill('input[name="User[username]"]', env('BIZOM_USERNAME'));
   await page.fill('#password', env('BIZOM_PASSWORD'));
