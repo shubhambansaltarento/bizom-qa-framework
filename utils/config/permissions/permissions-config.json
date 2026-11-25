@@ -1,0 +1,222 @@
+{
+  "User Management": {
+    "role": "Role Wise Permissions",
+    "designation": "Designation Wise Permissions",
+    "user": "User Wise Permissions"
+  },
+  "Outlet Management": {
+    "role": "Role Wise Permissions",
+    "designation": "Designation Wise Permissions",
+    "user": "User Wise Permissions"
+  },
+  "Setting Management": {
+    "role": "Role Wise Permissions",
+    "designation": "Designation Wise Permissions",
+    "user": "User Wise Permissions"
+  },
+  "Order Management": {
+    "role": "Role Wise Permissions",
+    "designation": "Designation Wise Permissions",
+    "user": "User Wise Permissions"
+  },
+  "Sale Management": {
+    "role": "Role Wise Permissions",
+    "designation": "Designation Wise Permissions",
+    "user": "User Wise Permissions"
+  },
+  "Menus Management": {
+    "role": "Role Wise Permissions",
+    "designation": "Designation Wise Permissions",
+    "user": "User Wise Permissions"
+  },
+  "Formdefinition Management": {
+    "role": "Role Wise Permissions",
+    "designation": "Designation Wise Permissions",
+    "user": "User Wise Permissions"
+  },
+  "Collection Management": {
+    "role": "Role Wise Permissions",
+    "designation": "Designation Wise Permissions",
+    "user": "User Wise Permissions"
+  },
+  "Opportunity Management": {
+    "role": "Role Wise Permissions",
+    "designation": "Designation Wise Permissions",
+    "user": "User Wise Permissions"
+  },
+  "Primary Discount Management": {
+    "role": "Role Wise Permissions",
+    "designation": "Designation Wise Permissions",
+    "user": "User Wise Permissions"
+  },
+  "Push Notification": {
+    "role": "Role Wise Permissions",
+    "designation": "Designation Wise Permissions",
+    "user": "User Wise Permissions"
+  },
+  "SMS": {
+    "role": "Role Wise Permissions",
+    "designation": "Designation Wise Permissions",
+    "user": "User Wise Permissions"
+  },
+  "E-Invoice Management": {
+    "role": "Role Wise Permissions",
+    "designation": "Designation Wise Permissions",
+    "user": "User Wise Permissions"
+  },
+  "Pjp Management": {
+    "role": "Role Wise Permissions",
+    "designation": "Designation Wise Permissions",
+    "user": "User Wise Permissions"
+  },
+  "Warehouse Management": {
+    "role": "Role Wise Permissions",
+    "designation": "Designation Wise Permissions",
+    "user": "User Wise Permissions"
+  },
+  "Inventory Management": {
+    "role": "Role Wise Permissions",
+    "designation": "Designation Wise Permissions",
+    "user": "User Wise Permissions"
+  },
+  "Area Management": {
+    "role": "Role Wise Permissions",
+    "designation": "Designation Wise Permissions",
+    "user": "User Wise Permissions"
+  },
+  "Loadin-Loadout Management": {
+    "role": "Role Wise Permissions",
+    "designation": "Designation Wise Permissions",
+    "user": "User Wise Permissions"
+  },
+  "Region Management": {
+    "role": "Role Wise Permissions",
+    "designation": "Designation Wise Permissions",
+    "user": "User Wise Permissions"
+  },
+  "Sku Visibility": {
+    "role": "Role Wise Permissions",
+    "designation": "Designation Wise Permissions",
+    "user": "User Wise Permissions"
+  },
+  "Claim Management": {
+    "role": "Role Wise Permissions",
+    "designation": "Designation Wise Permissions",
+    "user": "User Wise Permissions"
+  },
+  "Claim Limit Management": {
+    "role": "Role Wise Permissions",
+    "designation": "Designation Wise Permissions",
+    "user": "User Wise Permissions"
+  },
+  "Segmentation Module": {
+    "role": "Role Wise Permissions",
+    "designation": "Designation Wise Permissions",
+    "user": "User Wise Permissions"
+  },
+  "Delivery Challan Management": {
+    "role": "Role Wise Permissions",
+    "designation": "Designation Wise Permissions",
+    "user": "User Wise Permissions"
+  },
+  "Incentive Module Management": {
+    "role": "Role Wise Permissions",
+    "designation": "Designation Wise Permissions",
+    "user": "User Wise Permissions"
+  },
+  "Creditnotetype Module": {
+    "role": "Role Wise Permissions",
+    "designation": "Designation Wise Permissions",
+    "user": "User Wise Permissions"
+  },
+  "E-Invoice Nepal Management": {
+    "role": "Role Wise Permissions",
+    "designation": "Designation Wise Permissions",
+    "user": "User Wise Permissions"
+  },
+  "SKU Grouping": {
+    "role": "Role Wise Permissions",
+    "designation": "Designation Wise Permissions",
+    "user": "User Wise Permissions"
+  },
+  "Scheme Capping Configuration": {
+    "role": "Role Wise Permissions",
+    "designation": "Designation Wise Permissions",
+    "user": "User Wise Permissions"
+  },
+  "Payee Configuration": {
+    "role": "Role Wise Permissions",
+    "designation": "Designation Wise Permissions",
+    "user": "User Wise Permissions"
+  },
+  "Town Management": {
+    "role": "Role Wise Permissions",
+    "designation": "Designation Wise Permissions",
+    "user": "User Wise Permissions"
+  },
+  "Business Types Management": {
+    "role": "Role Wise Permissions",
+    "designation": "Designation Wise Permissions",
+    "user": "User Wise Permissions"
+  },
+  "Scheme": {
+    "role": "Role Wise Permissions",
+    "designation": "Designation Wise Permissions",
+    "user": "User Wise Permissions"
+  },
+  "Schemegroups": {
+    "role": "Role Wise Permissions",
+    "designation": "Designation Wise Permissions",
+    "user": "User Wise Permissions"
+  },
+  "Asset Management": {
+    "role": "Role Wise Permissions",
+    "designation": "Designation Wise Permissions",
+    "user": "User Wise Permissions"
+  },
+  "skulines Management": {
+    "role": "Role Wise Permissions",
+    "designation": "Designation Wise Permissions",
+    "user": "User Wise Permissions"
+  },
+  "Skunit Management": {
+    "role": "Role Wise Permissions",
+    "designation": "Designation Wise Permissions",
+    "user": "User Wise Permissions"
+  },
+  "Salereturn Management": {
+    "role": "Role Wise Permissions",
+    "designation": "Designation Wise Permissions",
+    "user": "User Wise Permissions"
+  },
+  "Credit Note Management": {
+    "role": "Role Wise Permissions",
+    "designation": "Designation Wise Permissions",
+    "user": "User Wise Permissions"
+  },
+  "Workflow Reasons Management": {
+    "role": "Role Wise Permissions",
+    "designation": "Designation Wise Permissions",
+    "user": "User Wise Permissions"
+  },
+  "Batches Management": {
+    "role": "Role Wise Permissions",
+    "designation": "Designation Wise Permissions",
+    "user": "User Wise Permissions"
+  },
+  "MDM Management": {
+    "role": "Role Wise Permissions",
+    "designation": "Designation Wise Permissions",
+    "user": "User Wise Permissions"
+  },
+  "Collateral Management": {
+    "role": "Role Wise Permissions",
+    "designation": "Designation Wise Permissions",
+    "user": "User Wise Permissions"
+  },
+  "Vehicle Management": {
+    "role": "Role Wise Permissions",
+    "designation": "Designation Wise Permissions",
+    "user": "User Wise Permissions"
+  }
+}

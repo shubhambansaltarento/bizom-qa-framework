@@ -1,0 +1,5995 @@
+{
+  "runAt": "2026-11-24T08:28:25.011Z",
+  "baseUrl": "https://devarun.bizomdev.in",
+  "uiChecks": {
+    "passed": true,
+    "issues": []
+  },
+  "total": 132,
+  "passed": 132,
+  "failed": 0,
+  "results": [
+    {
+      "module": "User Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 692,
+      "recordsTotal": 8,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "User_Add",
+          "url": "users/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "User_Edit",
+          "url": "users/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "User_Information",
+          "url": "users/view",
+          "isBlocked": "0"
+        },
+        {
+          "action": "User_List",
+          "url": "users/ajaxuserindex",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Attendances",
+          "url": "attendances/",
+          "isBlocked": "0"
+        },
+        {
+          "action": "User_Beatwise_Dashboard",
+          "url": "users/beatwisedashboard",
+          "isBlocked": "0"
+        },
+        {
+          "action": "User_hierarchyview",
+          "url": "users/hierarchyview",
+          "isBlocked": "0"
+        },
+        {
+          "action": "User_Approve_Edit_Request",
+          "url": "users/approveEditRequest",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "User Management",
+      "group": "designation",
+      "entity": {
+        "key": "1",
+        "label": "DSM"
+      },
+      "status": 200,
+      "ms": 577,
+      "recordsTotal": 8,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "User_Add",
+          "url": "users/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "User_Edit",
+          "url": "users/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "User_Information",
+          "url": "users/view",
+          "isBlocked": "0"
+        },
+        {
+          "action": "User_List",
+          "url": "users/ajaxuserindex",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Attendances",
+          "url": "attendances/",
+          "isBlocked": "0"
+        },
+        {
+          "action": "User_Beatwise_Dashboard",
+          "url": "users/beatwisedashboard",
+          "isBlocked": "0"
+        },
+        {
+          "action": "User_hierarchyview",
+          "url": "users/hierarchyview",
+          "isBlocked": "0"
+        },
+        {
+          "action": "User_Approve_Edit_Request",
+          "url": "users/approveEditRequest",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "User Management",
+      "group": "user",
+      "entity": {
+        "key": "2",
+        "label": "Pradeep Kumar"
+      },
+      "status": 200,
+      "ms": 701,
+      "recordsTotal": 8,
+      "blockedCount": 1,
+      "actions": [
+        {
+          "action": "User_Add",
+          "url": "users/add",
+          "isBlocked": "1"
+        },
+        {
+          "action": "User_Edit",
+          "url": "users/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "User_Information",
+          "url": "users/view",
+          "isBlocked": "0"
+        },
+        {
+          "action": "User_List",
+          "url": "users/ajaxuserindex",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Attendances",
+          "url": "attendances/",
+          "isBlocked": "0"
+        },
+        {
+          "action": "User_Beatwise_Dashboard",
+          "url": "users/beatwisedashboard",
+          "isBlocked": "0"
+        },
+        {
+          "action": "User_hierarchyview",
+          "url": "users/hierarchyview",
+          "isBlocked": "0"
+        },
+        {
+          "action": "User_Approve_Edit_Request",
+          "url": "users/approveEditRequest",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Outlet Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 573,
+      "recordsTotal": 8,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Outlet_Add",
+          "url": "outlets/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Outlet_Edit",
+          "url": "outlets/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Outlet_Info",
+          "url": "outlets/view",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Outlet_Transfer",
+          "url": "outlets/transferoutlets",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Outlet_Target_Performance",
+          "url": "reports/outletwisetarget",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Company_Organisation_List_View",
+          "url": "companies/organisationlistview",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_Outlet_Types",
+          "url": "outletTypes/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Retailer_Outlet_Onboarding",
+          "url": "outlets/retaileronboard",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Outlet Management",
+      "group": "designation",
+      "entity": {
+        "key": "1",
+        "label": "DSM"
+      },
+      "status": 200,
+      "ms": 607,
+      "recordsTotal": 8,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Outlet_Add",
+          "url": "outlets/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Outlet_Edit",
+          "url": "outlets/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Outlet_Info",
+          "url": "outlets/view",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Outlet_Transfer",
+          "url": "outlets/transferoutlets",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Outlet_Target_Performance",
+          "url": "reports/outletwisetarget",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Company_Organisation_List_View",
+          "url": "companies/organisationlistview",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_Outlet_Types",
+          "url": "outletTypes/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Retailer_Outlet_Onboarding",
+          "url": "outlets/retaileronboard",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Outlet Management",
+      "group": "user",
+      "entity": {
+        "key": "2",
+        "label": "Pradeep Kumar"
+      },
+      "status": 200,
+      "ms": 727,
+      "recordsTotal": 8,
+      "blockedCount": 1,
+      "actions": [
+        {
+          "action": "Outlet_Add",
+          "url": "outlets/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Outlet_Edit",
+          "url": "outlets/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Outlet_Info",
+          "url": "outlets/view",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Outlet_Transfer",
+          "url": "outlets/transferoutlets",
+          "isBlocked": "1"
+        },
+        {
+          "action": "Outlet_Target_Performance",
+          "url": "reports/outletwisetarget",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Company_Organisation_List_View",
+          "url": "companies/organisationlistview",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_Outlet_Types",
+          "url": "outletTypes/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Retailer_Outlet_Onboarding",
+          "url": "outlets/retaileronboard",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Setting Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 811,
+      "recordsTotal": 3,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Setting_Configuration",
+          "url": "settings/allsettings",
+          "isBlocked": "0"
+        },
+        {
+          "action": "General_Setting_configuration",
+          "url": "settings/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Settings_Override_configuration",
+          "url": "settings/settingsoverrides",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Setting Management",
+      "group": "designation",
+      "entity": {
+        "key": "1",
+        "label": "DSM"
+      },
+      "status": 200,
+      "ms": 557,
+      "recordsTotal": 3,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Setting_Configuration",
+          "url": "settings/allsettings",
+          "isBlocked": "0"
+        },
+        {
+          "action": "General_Setting_configuration",
+          "url": "settings/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Settings_Override_configuration",
+          "url": "settings/settingsoverrides",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Setting Management",
+      "group": "user",
+      "entity": {
+        "key": "2",
+        "label": "Pradeep Kumar"
+      },
+      "status": 200,
+      "ms": 701,
+      "recordsTotal": 3,
+      "blockedCount": 2,
+      "actions": [
+        {
+          "action": "Setting_Configuration",
+          "url": "settings/allsettings",
+          "isBlocked": "1"
+        },
+        {
+          "action": "General_Setting_configuration",
+          "url": "settings/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Settings_Override_configuration",
+          "url": "settings/settingsoverrides",
+          "isBlocked": "1"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Order Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 572,
+      "recordsTotal": 10,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Primary_Order_Add",
+          "url": "payments/sale/placeorderfordistributor",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Secondary_Order_Add",
+          "url": "payments/sale/order",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Orders_List",
+          "url": "orders/view",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Orders_Loadout_Sheet",
+          "url": "orders/fulfilledorderloadoutsheet",
+          "isBlocked": "0"
+        },
+        {
+          "action": "My_Order",
+          "url": "orders/getdistributororder",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View_Order_Reports",
+          "url": "reports/orderreport",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit_Order_Reports",
+          "url": "orders/editedorderreport",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Fulfill_Order_reports",
+          "url": "reports/fulfillorderreport",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_Order_States",
+          "url": "orderstates/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Asset_order_Report",
+          "url": "assetorders/assetorderreport",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Order Management",
+      "group": "designation",
+      "entity": {
+        "key": "1",
+        "label": "DSM"
+      },
+      "status": 200,
+      "ms": 590,
+      "recordsTotal": 10,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Primary_Order_Add",
+          "url": "payments/sale/placeorderfordistributor",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Secondary_Order_Add",
+          "url": "payments/sale/order",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Orders_List",
+          "url": "orders/view",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Orders_Loadout_Sheet",
+          "url": "orders/fulfilledorderloadoutsheet",
+          "isBlocked": "0"
+        },
+        {
+          "action": "My_Order",
+          "url": "orders/getdistributororder",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View_Order_Reports",
+          "url": "reports/orderreport",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit_Order_Reports",
+          "url": "orders/editedorderreport",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Fulfill_Order_reports",
+          "url": "reports/fulfillorderreport",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_Order_States",
+          "url": "orderstates/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Asset_order_Report",
+          "url": "assetorders/assetorderreport",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Order Management",
+      "group": "user",
+      "entity": {
+        "key": "2",
+        "label": "Pradeep Kumar"
+      },
+      "status": 200,
+      "ms": 706,
+      "recordsTotal": 10,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Primary_Order_Add",
+          "url": "payments/sale/placeorderfordistributor",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Secondary_Order_Add",
+          "url": "payments/sale/order",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Orders_List",
+          "url": "orders/view",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Orders_Loadout_Sheet",
+          "url": "orders/fulfilledorderloadoutsheet",
+          "isBlocked": "0"
+        },
+        {
+          "action": "My_Order",
+          "url": "orders/getdistributororder",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View_Order_Reports",
+          "url": "reports/orderreport",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit_Order_Reports",
+          "url": "orders/editedorderreport",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Fulfill_Order_reports",
+          "url": "reports/fulfillorderreport",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_Order_States",
+          "url": "orderstates/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Asset_order_Report",
+          "url": "assetorders/assetorderreport",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Sale Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 552,
+      "recordsTotal": 6,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Sale_add",
+          "url": "payments/sale",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Payment_List",
+          "url": "payments/view",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Sales_Report",
+          "url": "payments/salesreport",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Salereturn_report",
+          "url": "payments/salesreturnreport",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Secondary_Sale_Report",
+          "url": "reports/secondarysalereport",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_different_Sale_States",
+          "url": "salestates/index",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Sale Management",
+      "group": "designation",
+      "entity": {
+        "key": "1",
+        "label": "DSM"
+      },
+      "status": 200,
+      "ms": 567,
+      "recordsTotal": 6,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Sale_add",
+          "url": "payments/sale",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Payment_List",
+          "url": "payments/view",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Sales_Report",
+          "url": "payments/salesreport",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Salereturn_report",
+          "url": "payments/salesreturnreport",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Secondary_Sale_Report",
+          "url": "reports/secondarysalereport",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_different_Sale_States",
+          "url": "salestates/index",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Sale Management",
+      "group": "user",
+      "entity": {
+        "key": "2",
+        "label": "Pradeep Kumar"
+      },
+      "status": 200,
+      "ms": 697,
+      "recordsTotal": 6,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Sale_add",
+          "url": "payments/sale",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Payment_List",
+          "url": "payments/view",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Sales_Report",
+          "url": "payments/salesreport",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Salereturn_report",
+          "url": "payments/salesreturnreport",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Secondary_Sale_Report",
+          "url": "reports/secondarysalereport",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_different_Sale_States",
+          "url": "salestates/index",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Menus Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 560,
+      "recordsTotal": 5,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Menus_Configuration",
+          "url": "menus/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_menuurls",
+          "url": "menuurls/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_menuurl",
+          "url": "menuurls/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View_Menu_url",
+          "url": "menuurls/view",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit_Menu_url",
+          "url": "menuurls/edit",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Menus Management",
+      "group": "designation",
+      "entity": {
+        "key": "1",
+        "label": "DSM"
+      },
+      "status": 200,
+      "ms": 543,
+      "recordsTotal": 5,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Menus_Configuration",
+          "url": "menus/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_menuurls",
+          "url": "menuurls/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_menuurl",
+          "url": "menuurls/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View_Menu_url",
+          "url": "menuurls/view",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit_Menu_url",
+          "url": "menuurls/edit",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Menus Management",
+      "group": "user",
+      "entity": {
+        "key": "2",
+        "label": "Pradeep Kumar"
+      },
+      "status": 200,
+      "ms": 681,
+      "recordsTotal": 5,
+      "blockedCount": 1,
+      "actions": [
+        {
+          "action": "Menus_Configuration",
+          "url": "menus/add",
+          "isBlocked": "1"
+        },
+        {
+          "action": "List_of_menuurls",
+          "url": "menuurls/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_menuurl",
+          "url": "menuurls/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View_Menu_url",
+          "url": "menuurls/view",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit_Menu_url",
+          "url": "menuurls/edit",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Formdefinition Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 533,
+      "recordsTotal": 1,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Formdefinitions_Configuration",
+          "url": "formdefinitions/index",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Formdefinition Management",
+      "group": "designation",
+      "entity": {
+        "key": "1",
+        "label": "DSM"
+      },
+      "status": 200,
+      "ms": 531,
+      "recordsTotal": 1,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Formdefinitions_Configuration",
+          "url": "formdefinitions/index",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Formdefinition Management",
+      "group": "user",
+      "entity": {
+        "key": "2",
+        "label": "Pradeep Kumar"
+      },
+      "status": 200,
+      "ms": 877,
+      "recordsTotal": 1,
+      "blockedCount": 1,
+      "actions": [
+        {
+          "action": "Formdefinitions_Configuration",
+          "url": "formdefinitions/index",
+          "isBlocked": "1"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Collection Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 584,
+      "recordsTotal": 3,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "SelfPrimaryCollection",
+          "url": "collections/collectionInvoicewise/primaryselfcollection",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Depo_wise_Collection",
+          "url": "collections/depowiseCollectionreport",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Collections_Page",
+          "url": "collections/collectionInvoicewise",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Collection Management",
+      "group": "designation",
+      "entity": {
+        "key": "1",
+        "label": "DSM"
+      },
+      "status": 200,
+      "ms": 530,
+      "recordsTotal": 3,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "SelfPrimaryCollection",
+          "url": "collections/collectionInvoicewise/primaryselfcollection",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Depo_wise_Collection",
+          "url": "collections/depowiseCollectionreport",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Collections_Page",
+          "url": "collections/collectionInvoicewise",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Collection Management",
+      "group": "user",
+      "entity": {
+        "key": "2",
+        "label": "Pradeep Kumar"
+      },
+      "status": 200,
+      "ms": 679,
+      "recordsTotal": 3,
+      "blockedCount": 1,
+      "actions": [
+        {
+          "action": "SelfPrimaryCollection",
+          "url": "collections/collectionInvoicewise/primaryselfcollection",
+          "isBlocked": "1"
+        },
+        {
+          "action": "Depo_wise_Collection",
+          "url": "collections/depowiseCollectionreport",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Collections_Page",
+          "url": "collections/collectionInvoicewise",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Opportunity Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 559,
+      "recordsTotal": 7,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "addOpportunityTask",
+          "url": "tasks/addOpportunityTask",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_lead_score",
+          "url": "leadscores/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_Lead_score",
+          "url": "leadscores/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_Stages",
+          "url": "stages/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_Stages",
+          "url": "stages/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_Tasks",
+          "url": "tasks/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Manage_Leads",
+          "url": "outlets/manageLeads",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Opportunity Management",
+      "group": "designation",
+      "entity": {
+        "key": "1",
+        "label": "DSM"
+      },
+      "status": 200,
+      "ms": 538,
+      "recordsTotal": 7,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "addOpportunityTask",
+          "url": "tasks/addOpportunityTask",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_lead_score",
+          "url": "leadscores/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_Lead_score",
+          "url": "leadscores/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_Stages",
+          "url": "stages/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_Stages",
+          "url": "stages/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_Tasks",
+          "url": "tasks/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Manage_Leads",
+          "url": "outlets/manageLeads",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Opportunity Management",
+      "group": "user",
+      "entity": {
+        "key": "2",
+        "label": "Pradeep Kumar"
+      },
+      "status": 200,
+      "ms": 678,
+      "recordsTotal": 7,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "addOpportunityTask",
+          "url": "tasks/addOpportunityTask",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_lead_score",
+          "url": "leadscores/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_Lead_score",
+          "url": "leadscores/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_Stages",
+          "url": "stages/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_Stages",
+          "url": "stages/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_Tasks",
+          "url": "tasks/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Manage_Leads",
+          "url": "outlets/manageLeads",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Primary Discount Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 529,
+      "recordsTotal": 1,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Primary_Discount_Configs",
+          "url": "warehouses/primarydiscountindex",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Primary Discount Management",
+      "group": "designation",
+      "entity": {
+        "key": "1",
+        "label": "DSM"
+      },
+      "status": 200,
+      "ms": 525,
+      "recordsTotal": 1,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Primary_Discount_Configs",
+          "url": "warehouses/primarydiscountindex",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Primary Discount Management",
+      "group": "user",
+      "entity": {
+        "key": "2",
+        "label": "Pradeep Kumar"
+      },
+      "status": 200,
+      "ms": 720,
+      "recordsTotal": 1,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Primary_Discount_Configs",
+          "url": "warehouses/primarydiscountindex",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Push Notification",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 537,
+      "recordsTotal": 2,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Push_Notification",
+          "url": "pushnotification/pushnotification",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Pushregistration_Notify",
+          "url": "pushregistrations/sendnotification",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Push Notification",
+      "group": "designation",
+      "entity": {
+        "key": "1",
+        "label": "DSM"
+      },
+      "status": 200,
+      "ms": 534,
+      "recordsTotal": 2,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Push_Notification",
+          "url": "pushnotification/pushnotification",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Pushregistration_Notify",
+          "url": "pushregistrations/sendnotification",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Push Notification",
+      "group": "user",
+      "entity": {
+        "key": "2",
+        "label": "Pradeep Kumar"
+      },
+      "status": 200,
+      "ms": 663,
+      "recordsTotal": 2,
+      "blockedCount": 2,
+      "actions": [
+        {
+          "action": "Push_Notification",
+          "url": "pushnotification/pushnotification",
+          "isBlocked": "1"
+        },
+        {
+          "action": "Pushregistration_Notify",
+          "url": "pushregistrations/sendnotification",
+          "isBlocked": "1"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "SMS",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 537,
+      "recordsTotal": 1,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "SMS_Add",
+          "url": "sms/sms",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "SMS",
+      "group": "designation",
+      "entity": {
+        "key": "1",
+        "label": "DSM"
+      },
+      "status": 200,
+      "ms": 557,
+      "recordsTotal": 1,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "SMS_Add",
+          "url": "sms/sms",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "SMS",
+      "group": "user",
+      "entity": {
+        "key": "2",
+        "label": "Pradeep Kumar"
+      },
+      "status": 200,
+      "ms": 713,
+      "recordsTotal": 1,
+      "blockedCount": 1,
+      "actions": [
+        {
+          "action": "SMS_Add",
+          "url": "sms/sms",
+          "isBlocked": "1"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "E-Invoice Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 577,
+      "recordsTotal": 5,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Generate_IRN",
+          "url": "onlineinvoices/submitInvoice",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Cancel_IRN",
+          "url": "onlineinvoices/cancelInvoice",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Manage_E-Invoice_Portal_Credentials",
+          "url": "onlineinvoices/manageCredentials",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Check_Credentials",
+          "url": "onlineinvoices/generateToken",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Reset_Credentials",
+          "url": "onlineinvoices/resetCredentials",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "E-Invoice Management",
+      "group": "designation",
+      "entity": {
+        "key": "1",
+        "label": "DSM"
+      },
+      "status": 200,
+      "ms": 563,
+      "recordsTotal": 5,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Generate_IRN",
+          "url": "onlineinvoices/submitInvoice",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Cancel_IRN",
+          "url": "onlineinvoices/cancelInvoice",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Manage_E-Invoice_Portal_Credentials",
+          "url": "onlineinvoices/manageCredentials",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Check_Credentials",
+          "url": "onlineinvoices/generateToken",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Reset_Credentials",
+          "url": "onlineinvoices/resetCredentials",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "E-Invoice Management",
+      "group": "user",
+      "entity": {
+        "key": "2",
+        "label": "Pradeep Kumar"
+      },
+      "status": 200,
+      "ms": 700,
+      "recordsTotal": 5,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Generate_IRN",
+          "url": "onlineinvoices/submitInvoice",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Cancel_IRN",
+          "url": "onlineinvoices/cancelInvoice",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Manage_E-Invoice_Portal_Credentials",
+          "url": "onlineinvoices/manageCredentials",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Check_Credentials",
+          "url": "onlineinvoices/generateToken",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Reset_Credentials",
+          "url": "onlineinvoices/resetCredentials",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Pjp Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 594,
+      "recordsTotal": 4,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Create_Beat",
+          "url": "beats/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit_Beat",
+          "url": "beats/editbeat",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_Beats",
+          "url": "beats/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Pjp_Planning",
+          "url": "pjps/updatepjp",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Pjp Management",
+      "group": "designation",
+      "entity": {
+        "key": "1",
+        "label": "DSM"
+      },
+      "status": 200,
+      "ms": 660,
+      "recordsTotal": 4,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Create_Beat",
+          "url": "beats/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit_Beat",
+          "url": "beats/editbeat",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_Beats",
+          "url": "beats/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Pjp_Planning",
+          "url": "pjps/updatepjp",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Pjp Management",
+      "group": "user",
+      "entity": {
+        "key": "2",
+        "label": "Pradeep Kumar"
+      },
+      "status": 200,
+      "ms": 769,
+      "recordsTotal": 4,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Create_Beat",
+          "url": "beats/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit_Beat",
+          "url": "beats/editbeat",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_Beats",
+          "url": "beats/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Pjp_Planning",
+          "url": "pjps/updatepjp",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Warehouse Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 639,
+      "recordsTotal": 9,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "View_warehouse_distributor",
+          "url": "warehouses/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Create_distributor",
+          "url": "warehouses/adddistributor",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit_distributor",
+          "url": "warehouses/editdistributor",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Distributor mappings",
+          "url": "distributordepomappings/adddepomapping",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_warehousetype",
+          "url": "warehousetypes/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View_warehousetype",
+          "url": "warehousetypes/view",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_warehouse_category",
+          "url": "warehousecategories/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_warehouse_categories",
+          "url": "warehousecategories/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Distributor_List_under_warehouses",
+          "url": "warehouses/distributorlist",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Warehouse Management",
+      "group": "designation",
+      "entity": {
+        "key": "1",
+        "label": "DSM"
+      },
+      "status": 200,
+      "ms": 650,
+      "recordsTotal": 9,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "View_warehouse_distributor",
+          "url": "warehouses/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Create_distributor",
+          "url": "warehouses/adddistributor",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit_distributor",
+          "url": "warehouses/editdistributor",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Distributor mappings",
+          "url": "distributordepomappings/adddepomapping",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_warehousetype",
+          "url": "warehousetypes/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View_warehousetype",
+          "url": "warehousetypes/view",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_warehouse_category",
+          "url": "warehousecategories/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_warehouse_categories",
+          "url": "warehousecategories/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Distributor_List_under_warehouses",
+          "url": "warehouses/distributorlist",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Warehouse Management",
+      "group": "user",
+      "entity": {
+        "key": "2",
+        "label": "Pradeep Kumar"
+      },
+      "status": 200,
+      "ms": 753,
+      "recordsTotal": 9,
+      "blockedCount": 1,
+      "actions": [
+        {
+          "action": "View_warehouse_distributor",
+          "url": "warehouses/index",
+          "isBlocked": "1"
+        },
+        {
+          "action": "Create_distributor",
+          "url": "warehouses/adddistributor",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit_distributor",
+          "url": "warehouses/editdistributor",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Distributor mappings",
+          "url": "distributordepomappings/adddepomapping",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_warehousetype",
+          "url": "warehousetypes/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View_warehousetype",
+          "url": "warehousetypes/view",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_warehouse_category",
+          "url": "warehousecategories/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_warehouse_categories",
+          "url": "warehousecategories/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Distributor_List_under_warehouses",
+          "url": "warehouses/distributorlist",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Inventory Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 679,
+      "recordsTotal": 11,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Index_inventory",
+          "url": "inventories/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Update_inventories",
+          "url": "inventories/changestatus",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Insert_inventories",
+          "url": "inventories/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Audit_inventory",
+          "url": "inventories/auditInventoryTypes",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Tag_SerialNo_To_Inventory",
+          "url": "inventories/mapinventorywithserialnumber",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Set_up_Alert_Level_for_Inventory",
+          "url": "inventories/alertlevel",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Inventory_transfer_history",
+          "url": "inventories/transferhistory",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Inventory_transaction_report",
+          "url": "inventories/inventorytransactionreport",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_Inventory_type",
+          "url": "inventorytypes/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_Inventory_types",
+          "url": "inventorytypes/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit_Inventory_Type",
+          "url": "inventorytypes/edit",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Inventory Management",
+      "group": "designation",
+      "entity": {
+        "key": "1",
+        "label": "DSM"
+      },
+      "status": 200,
+      "ms": 724,
+      "recordsTotal": 11,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Index_inventory",
+          "url": "inventories/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Update_inventories",
+          "url": "inventories/changestatus",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Insert_inventories",
+          "url": "inventories/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Audit_inventory",
+          "url": "inventories/auditInventoryTypes",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Tag_SerialNo_To_Inventory",
+          "url": "inventories/mapinventorywithserialnumber",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Set_up_Alert_Level_for_Inventory",
+          "url": "inventories/alertlevel",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Inventory_transfer_history",
+          "url": "inventories/transferhistory",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Inventory_transaction_report",
+          "url": "inventories/inventorytransactionreport",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_Inventory_type",
+          "url": "inventorytypes/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_Inventory_types",
+          "url": "inventorytypes/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit_Inventory_Type",
+          "url": "inventorytypes/edit",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Inventory Management",
+      "group": "user",
+      "entity": {
+        "key": "2",
+        "label": "Pradeep Kumar"
+      },
+      "status": 200,
+      "ms": 748,
+      "recordsTotal": 11,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Index_inventory",
+          "url": "inventories/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Update_inventories",
+          "url": "inventories/changestatus",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Insert_inventories",
+          "url": "inventories/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Audit_inventory",
+          "url": "inventories/auditInventoryTypes",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Tag_SerialNo_To_Inventory",
+          "url": "inventories/mapinventorywithserialnumber",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Set_up_Alert_Level_for_Inventory",
+          "url": "inventories/alertlevel",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Inventory_transfer_history",
+          "url": "inventories/transferhistory",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Inventory_transaction_report",
+          "url": "inventories/inventorytransactionreport",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_Inventory_type",
+          "url": "inventorytypes/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_Inventory_types",
+          "url": "inventorytypes/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit_Inventory_Type",
+          "url": "inventorytypes/edit",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Area Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 585,
+      "recordsTotal": 3,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Edit_area",
+          "url": "areas/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_Area",
+          "url": "areas/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Transfer_Areas",
+          "url": "areas/transferareas",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Area Management",
+      "group": "designation",
+      "entity": {
+        "key": "1",
+        "label": "DSM"
+      },
+      "status": 200,
+      "ms": 1331,
+      "recordsTotal": 3,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Edit_area",
+          "url": "areas/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_Area",
+          "url": "areas/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Transfer_Areas",
+          "url": "areas/transferareas",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Area Management",
+      "group": "user",
+      "entity": {
+        "key": "2",
+        "label": "Pradeep Kumar"
+      },
+      "status": 200,
+      "ms": 943,
+      "recordsTotal": 3,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Edit_area",
+          "url": "areas/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_Area",
+          "url": "areas/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Transfer_Areas",
+          "url": "areas/transferareas",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Loadin-Loadout Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 654,
+      "recordsTotal": 7,
+      "blockedCount": 1,
+      "actions": [
+        {
+          "action": "Manage",
+          "url": "loadouts/manage",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Loadin",
+          "url": "loadouts/loadin",
+          "isBlocked": "1"
+        },
+        {
+          "action": "List_of_Loadouts",
+          "url": "loadouts/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Loadouts",
+          "url": "loadouts/viewmultipleloadout",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List _of_Loadoutsheet",
+          "url": "loadoutsheets/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Order_Loadsheet",
+          "url": "orders/fulfilledorderloadoutsheet",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Settle_Loadsheet",
+          "url": "payments/settleloadsheet",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Loadin-Loadout Management",
+      "group": "designation",
+      "entity": {
+        "key": "1",
+        "label": "DSM"
+      },
+      "status": 200,
+      "ms": 580,
+      "recordsTotal": 7,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Manage",
+          "url": "loadouts/manage",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Loadin",
+          "url": "loadouts/loadin",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_Loadouts",
+          "url": "loadouts/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Loadouts",
+          "url": "loadouts/viewmultipleloadout",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List _of_Loadoutsheet",
+          "url": "loadoutsheets/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Order_Loadsheet",
+          "url": "orders/fulfilledorderloadoutsheet",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Settle_Loadsheet",
+          "url": "payments/settleloadsheet",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Loadin-Loadout Management",
+      "group": "user",
+      "entity": {
+        "key": "2",
+        "label": "Pradeep Kumar"
+      },
+      "status": 200,
+      "ms": 713,
+      "recordsTotal": 7,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Manage",
+          "url": "loadouts/manage",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Loadin",
+          "url": "loadouts/loadin",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_Loadouts",
+          "url": "loadouts/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Loadouts",
+          "url": "loadouts/viewmultipleloadout",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List _of_Loadoutsheet",
+          "url": "loadoutsheets/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Order_Loadsheet",
+          "url": "orders/fulfilledorderloadoutsheet",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Settle_Loadsheet",
+          "url": "payments/settleloadsheet",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Region Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 572,
+      "recordsTotal": 20,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "ViewAllStates",
+          "url": "states/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "ViewState",
+          "url": "states/view",
+          "isBlocked": "0"
+        },
+        {
+          "action": "AddStates",
+          "url": "states/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "EditStates",
+          "url": "states/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "ViewAllDistricts",
+          "url": "districts/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "ViewDistrict",
+          "url": "districts/view",
+          "isBlocked": "0"
+        },
+        {
+          "action": "AddDistricts",
+          "url": "districts/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "EditDistricts",
+          "url": "districts/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "ViewAllCities",
+          "url": "cities/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "ViewCity",
+          "url": "cities/view",
+          "isBlocked": "0"
+        },
+        {
+          "action": "AddCities",
+          "url": "cities/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "EditCities",
+          "url": "cities/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "ViewAllZones",
+          "url": "zones/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "ViewZone",
+          "url": "zones/view",
+          "isBlocked": "0"
+        },
+        {
+          "action": "AddZones",
+          "url": "zones/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "EditZones",
+          "url": "zones/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "ViewSub-Zones",
+          "url": "subzones/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "ViewSub-Zone",
+          "url": "subzones/view",
+          "isBlocked": "0"
+        },
+        {
+          "action": "AddSub-Zones",
+          "url": "subzones/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "EditSub-Zones",
+          "url": "subzones/edit",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Region Management",
+      "group": "designation",
+      "entity": {
+        "key": "1",
+        "label": "DSM"
+      },
+      "status": 200,
+      "ms": 578,
+      "recordsTotal": 20,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "ViewAllStates",
+          "url": "states/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "ViewState",
+          "url": "states/view",
+          "isBlocked": "0"
+        },
+        {
+          "action": "AddStates",
+          "url": "states/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "EditStates",
+          "url": "states/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "ViewAllDistricts",
+          "url": "districts/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "ViewDistrict",
+          "url": "districts/view",
+          "isBlocked": "0"
+        },
+        {
+          "action": "AddDistricts",
+          "url": "districts/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "EditDistricts",
+          "url": "districts/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "ViewAllCities",
+          "url": "cities/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "ViewCity",
+          "url": "cities/view",
+          "isBlocked": "0"
+        },
+        {
+          "action": "AddCities",
+          "url": "cities/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "EditCities",
+          "url": "cities/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "ViewAllZones",
+          "url": "zones/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "ViewZone",
+          "url": "zones/view",
+          "isBlocked": "0"
+        },
+        {
+          "action": "AddZones",
+          "url": "zones/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "EditZones",
+          "url": "zones/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "ViewSub-Zones",
+          "url": "subzones/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "ViewSub-Zone",
+          "url": "subzones/view",
+          "isBlocked": "0"
+        },
+        {
+          "action": "AddSub-Zones",
+          "url": "subzones/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "EditSub-Zones",
+          "url": "subzones/edit",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Region Management",
+      "group": "user",
+      "entity": {
+        "key": "2",
+        "label": "Pradeep Kumar"
+      },
+      "status": 200,
+      "ms": 942,
+      "recordsTotal": 20,
+      "blockedCount": 3,
+      "actions": [
+        {
+          "action": "ViewAllStates",
+          "url": "states/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "ViewState",
+          "url": "states/view",
+          "isBlocked": "0"
+        },
+        {
+          "action": "AddStates",
+          "url": "states/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "EditStates",
+          "url": "states/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "ViewAllDistricts",
+          "url": "districts/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "ViewDistrict",
+          "url": "districts/view",
+          "isBlocked": "0"
+        },
+        {
+          "action": "AddDistricts",
+          "url": "districts/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "EditDistricts",
+          "url": "districts/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "ViewAllCities",
+          "url": "cities/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "ViewCity",
+          "url": "cities/view",
+          "isBlocked": "0"
+        },
+        {
+          "action": "AddCities",
+          "url": "cities/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "EditCities",
+          "url": "cities/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "ViewAllZones",
+          "url": "zones/index",
+          "isBlocked": "1"
+        },
+        {
+          "action": "ViewZone",
+          "url": "zones/view",
+          "isBlocked": "0"
+        },
+        {
+          "action": "AddZones",
+          "url": "zones/add",
+          "isBlocked": "1"
+        },
+        {
+          "action": "EditZones",
+          "url": "zones/edit",
+          "isBlocked": "1"
+        },
+        {
+          "action": "ViewSub-Zones",
+          "url": "subzones/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "ViewSub-Zone",
+          "url": "subzones/view",
+          "isBlocked": "0"
+        },
+        {
+          "action": "AddSub-Zones",
+          "url": "subzones/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "EditSub-Zones",
+          "url": "subzones/edit",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Sku Visibility",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 875,
+      "recordsTotal": 3,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Skuvisibility_Add",
+          "url": "skuvisibilities/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Skuvisibility_Edit",
+          "url": "skuvisibilities/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Skuvisibility_List",
+          "url": "skuvisibilities/index",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Sku Visibility",
+      "group": "designation",
+      "entity": {
+        "key": "1",
+        "label": "DSM"
+      },
+      "status": 200,
+      "ms": 1252,
+      "recordsTotal": 3,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Skuvisibility_Add",
+          "url": "skuvisibilities/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Skuvisibility_Edit",
+          "url": "skuvisibilities/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Skuvisibility_List",
+          "url": "skuvisibilities/index",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Sku Visibility",
+      "group": "user",
+      "entity": {
+        "key": "2",
+        "label": "Pradeep Kumar"
+      },
+      "status": 200,
+      "ms": 770,
+      "recordsTotal": 3,
+      "blockedCount": 3,
+      "actions": [
+        {
+          "action": "Skuvisibility_Add",
+          "url": "skuvisibilities/add",
+          "isBlocked": "1"
+        },
+        {
+          "action": "Skuvisibility_Edit",
+          "url": "skuvisibilities/edit",
+          "isBlocked": "1"
+        },
+        {
+          "action": "Skuvisibility_List",
+          "url": "skuvisibilities/index",
+          "isBlocked": "1"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Claim Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 534,
+      "recordsTotal": 6,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "viewClaims",
+          "url": "claims/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Report_of_claims",
+          "url": "claims/claimsreport",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_Claim",
+          "url": "claims/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Approval_of_Claims",
+          "url": "claims/approveclaims",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_claim_approver",
+          "url": "claimapprovals/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_claim_approvals",
+          "url": "claimapprovals/index",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Claim Management",
+      "group": "designation",
+      "entity": {
+        "key": "1",
+        "label": "DSM"
+      },
+      "status": 200,
+      "ms": 546,
+      "recordsTotal": 6,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "viewClaims",
+          "url": "claims/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Report_of_claims",
+          "url": "claims/claimsreport",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_Claim",
+          "url": "claims/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Approval_of_Claims",
+          "url": "claims/approveclaims",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_claim_approver",
+          "url": "claimapprovals/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_claim_approvals",
+          "url": "claimapprovals/index",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Claim Management",
+      "group": "user",
+      "entity": {
+        "key": "2",
+        "label": "Pradeep Kumar"
+      },
+      "status": 200,
+      "ms": 710,
+      "recordsTotal": 6,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "viewClaims",
+          "url": "claims/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Report_of_claims",
+          "url": "claims/claimsreport",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_Claim",
+          "url": "claims/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Approval_of_Claims",
+          "url": "claims/approveclaims",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_claim_approver",
+          "url": "claimapprovals/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_claim_approvals",
+          "url": "claimapprovals/index",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Claim Limit Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 541,
+      "recordsTotal": 9,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Claim_Limit_Add_Edit",
+          "url": "claimtypes/manageClaimLimits",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View_All_Claim_Limits",
+          "url": "claimlimitconfigurations/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Claim_Limit_Group_Add",
+          "url": "claimlimitgroups/addGroup",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Claim_Limit_Group_Edit",
+          "url": "claimlimitgroups/editGroup",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View_All_Claim_Limit_Group",
+          "url": "claimlimitgroups/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_user_claim_field_limits",
+          "url": "userclaimfieldlimits/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_user_claim_field_limits",
+          "url": "userclaimfieldlimits/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_orgclaims",
+          "url": "orgclaims/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_claimtype",
+          "url": "claimtypes/add",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Claim Limit Management",
+      "group": "designation",
+      "entity": {
+        "key": "1",
+        "label": "DSM"
+      },
+      "status": 200,
+      "ms": 555,
+      "recordsTotal": 9,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Claim_Limit_Add_Edit",
+          "url": "claimtypes/manageClaimLimits",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View_All_Claim_Limits",
+          "url": "claimlimitconfigurations/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Claim_Limit_Group_Add",
+          "url": "claimlimitgroups/addGroup",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Claim_Limit_Group_Edit",
+          "url": "claimlimitgroups/editGroup",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View_All_Claim_Limit_Group",
+          "url": "claimlimitgroups/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_user_claim_field_limits",
+          "url": "userclaimfieldlimits/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_user_claim_field_limits",
+          "url": "userclaimfieldlimits/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_orgclaims",
+          "url": "orgclaims/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_claimtype",
+          "url": "claimtypes/add",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Claim Limit Management",
+      "group": "user",
+      "entity": {
+        "key": "2",
+        "label": "Pradeep Kumar"
+      },
+      "status": 200,
+      "ms": 790,
+      "recordsTotal": 9,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Claim_Limit_Add_Edit",
+          "url": "claimtypes/manageClaimLimits",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View_All_Claim_Limits",
+          "url": "claimlimitconfigurations/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Claim_Limit_Group_Add",
+          "url": "claimlimitgroups/addGroup",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Claim_Limit_Group_Edit",
+          "url": "claimlimitgroups/editGroup",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View_All_Claim_Limit_Group",
+          "url": "claimlimitgroups/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_user_claim_field_limits",
+          "url": "userclaimfieldlimits/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_user_claim_field_limits",
+          "url": "userclaimfieldlimits/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_orgclaims",
+          "url": "orgclaims/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_claimtype",
+          "url": "claimtypes/add",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Segmentation Module",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 531,
+      "recordsTotal": 7,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "View_Segment_Change_Requests",
+          "url": "segmentchangerequests/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View_Segments",
+          "url": "segments/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_Segment",
+          "url": "segments/addSegment",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit_Segment",
+          "url": "segments/editSegment",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View_Segment_Rules",
+          "url": "segmentrules/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_Segment_Rule",
+          "url": "segmentrules/addRule",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit_Segment_Rule",
+          "url": "segmentrules/editRule",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Segmentation Module",
+      "group": "designation",
+      "entity": {
+        "key": "1",
+        "label": "DSM"
+      },
+      "status": 200,
+      "ms": 559,
+      "recordsTotal": 7,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "View_Segment_Change_Requests",
+          "url": "segmentchangerequests/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View_Segments",
+          "url": "segments/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_Segment",
+          "url": "segments/addSegment",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit_Segment",
+          "url": "segments/editSegment",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View_Segment_Rules",
+          "url": "segmentrules/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_Segment_Rule",
+          "url": "segmentrules/addRule",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit_Segment_Rule",
+          "url": "segmentrules/editRule",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Segmentation Module",
+      "group": "user",
+      "entity": {
+        "key": "2",
+        "label": "Pradeep Kumar"
+      },
+      "status": 200,
+      "ms": 947,
+      "recordsTotal": 7,
+      "blockedCount": 1,
+      "actions": [
+        {
+          "action": "View_Segment_Change_Requests",
+          "url": "segmentchangerequests/index",
+          "isBlocked": "1"
+        },
+        {
+          "action": "View_Segments",
+          "url": "segments/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_Segment",
+          "url": "segments/addSegment",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit_Segment",
+          "url": "segments/editSegment",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View_Segment_Rules",
+          "url": "segmentrules/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_Segment_Rule",
+          "url": "segmentrules/addRule",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit_Segment_Rule",
+          "url": "segmentrules/editRule",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Delivery Challan Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 1002,
+      "recordsTotal": 4,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Delivery_Challan_Type_Index_UI",
+          "url": "deliverychallantypes/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Delivery_Challan_Type_Add_UI",
+          "url": "deliverychallantypes/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Delivery_Challan_Type_Edit_UI",
+          "url": "deliverychallantypes/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Delivery_Challan_Type_Edit_Status",
+          "url": "deliverychallantypes/updateStatus",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Delivery Challan Management",
+      "group": "designation",
+      "entity": {
+        "key": "1",
+        "label": "DSM"
+      },
+      "status": 200,
+      "ms": 701,
+      "recordsTotal": 4,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Delivery_Challan_Type_Index_UI",
+          "url": "deliverychallantypes/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Delivery_Challan_Type_Add_UI",
+          "url": "deliverychallantypes/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Delivery_Challan_Type_Edit_UI",
+          "url": "deliverychallantypes/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Delivery_Challan_Type_Edit_Status",
+          "url": "deliverychallantypes/updateStatus",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Delivery Challan Management",
+      "group": "user",
+      "entity": {
+        "key": "2",
+        "label": "Pradeep Kumar"
+      },
+      "status": 200,
+      "ms": 818,
+      "recordsTotal": 4,
+      "blockedCount": 4,
+      "actions": [
+        {
+          "action": "Delivery_Challan_Type_Index_UI",
+          "url": "deliverychallantypes/index",
+          "isBlocked": "1"
+        },
+        {
+          "action": "Delivery_Challan_Type_Add_UI",
+          "url": "deliverychallantypes/add",
+          "isBlocked": "1"
+        },
+        {
+          "action": "Delivery_Challan_Type_Edit_UI",
+          "url": "deliverychallantypes/edit",
+          "isBlocked": "1"
+        },
+        {
+          "action": "Delivery_Challan_Type_Edit_Status",
+          "url": "deliverychallantypes/updateStatus",
+          "isBlocked": "1"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Incentive Module Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 551,
+      "recordsTotal": 8,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "View Incentive Type",
+          "url": "incentivetypes/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add Incentive Type",
+          "url": "incentivetypes/addType",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit Incentive Type",
+          "url": "incentivetypes/editType",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View Incentive Entity Mappings",
+          "url": "incentiveentitymappings/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Update Incentive Entity Mapping API",
+          "url": "incentiveentitymappings/updateStatus",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View Incentive Configurations",
+          "url": "incentiveconfigurations/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Update Incentive Configuration API",
+          "url": "incentiveconfigurations/updateStatus",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Update Incentive Configuration API",
+          "url": "incentiveaudits/userWiseIncentiveAudits",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Incentive Module Management",
+      "group": "designation",
+      "entity": {
+        "key": "1",
+        "label": "DSM"
+      },
+      "status": 200,
+      "ms": 558,
+      "recordsTotal": 8,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "View Incentive Type",
+          "url": "incentivetypes/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add Incentive Type",
+          "url": "incentivetypes/addType",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit Incentive Type",
+          "url": "incentivetypes/editType",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View Incentive Entity Mappings",
+          "url": "incentiveentitymappings/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Update Incentive Entity Mapping API",
+          "url": "incentiveentitymappings/updateStatus",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View Incentive Configurations",
+          "url": "incentiveconfigurations/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Update Incentive Configuration API",
+          "url": "incentiveconfigurations/updateStatus",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Update Incentive Configuration API",
+          "url": "incentiveaudits/userWiseIncentiveAudits",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Incentive Module Management",
+      "group": "user",
+      "entity": {
+        "key": "2",
+        "label": "Pradeep Kumar"
+      },
+      "status": 200,
+      "ms": 692,
+      "recordsTotal": 8,
+      "blockedCount": 8,
+      "actions": [
+        {
+          "action": "View Incentive Type",
+          "url": "incentivetypes/index",
+          "isBlocked": "1"
+        },
+        {
+          "action": "Add Incentive Type",
+          "url": "incentivetypes/addType",
+          "isBlocked": "1"
+        },
+        {
+          "action": "Edit Incentive Type",
+          "url": "incentivetypes/editType",
+          "isBlocked": "1"
+        },
+        {
+          "action": "View Incentive Entity Mappings",
+          "url": "incentiveentitymappings/index",
+          "isBlocked": "1"
+        },
+        {
+          "action": "Update Incentive Entity Mapping API",
+          "url": "incentiveentitymappings/updateStatus",
+          "isBlocked": "1"
+        },
+        {
+          "action": "View Incentive Configurations",
+          "url": "incentiveconfigurations/index",
+          "isBlocked": "1"
+        },
+        {
+          "action": "Update Incentive Configuration API",
+          "url": "incentiveconfigurations/updateStatus",
+          "isBlocked": "1"
+        },
+        {
+          "action": "Update Incentive Configuration API",
+          "url": "incentiveaudits/userWiseIncentiveAudits",
+          "isBlocked": "1"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Creditnotetype Module",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 535,
+      "recordsTotal": 5,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Add_Creditnotetype",
+          "url": "creditnotetypes/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit_Creditnotetype",
+          "url": "creditnotetypes/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Listof_Creditnotetype",
+          "url": "creditnotetypes/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_Creditnotetypemappings",
+          "url": "creditnotetypemappings/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Listof_Creditnotetypemappings",
+          "url": "creditnotetypemappings/index",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Creditnotetype Module",
+      "group": "designation",
+      "entity": {
+        "key": "1",
+        "label": "DSM"
+      },
+      "status": 200,
+      "ms": 540,
+      "recordsTotal": 5,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Add_Creditnotetype",
+          "url": "creditnotetypes/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit_Creditnotetype",
+          "url": "creditnotetypes/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Listof_Creditnotetype",
+          "url": "creditnotetypes/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_Creditnotetypemappings",
+          "url": "creditnotetypemappings/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Listof_Creditnotetypemappings",
+          "url": "creditnotetypemappings/index",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Creditnotetype Module",
+      "group": "user",
+      "entity": {
+        "key": "2",
+        "label": "Pradeep Kumar"
+      },
+      "status": 200,
+      "ms": 672,
+      "recordsTotal": 5,
+      "blockedCount": 5,
+      "actions": [
+        {
+          "action": "Add_Creditnotetype",
+          "url": "creditnotetypes/add",
+          "isBlocked": "1"
+        },
+        {
+          "action": "Edit_Creditnotetype",
+          "url": "creditnotetypes/edit",
+          "isBlocked": "1"
+        },
+        {
+          "action": "Listof_Creditnotetype",
+          "url": "creditnotetypes/index",
+          "isBlocked": "1"
+        },
+        {
+          "action": "Add_Creditnotetypemappings",
+          "url": "creditnotetypemappings/add",
+          "isBlocked": "1"
+        },
+        {
+          "action": "Listof_Creditnotetypemappings",
+          "url": "creditnotetypemappings/index",
+          "isBlocked": "1"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "E-Invoice Nepal Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 532,
+      "recordsTotal": 4,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Generate_IRN",
+          "url": "onlinenepalinvoices/submitInvoice",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Manage_E-Invoice_Portal_Credentials",
+          "url": "onlinenepalinvoices/manageCredentials",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Check_Credentials",
+          "url": "onlinenepalinvoices/generateToken",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Reset_Credentials",
+          "url": "onlinenepalinvoices/resetCredentials",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "E-Invoice Nepal Management",
+      "group": "designation",
+      "entity": {
+        "key": "1",
+        "label": "DSM"
+      },
+      "status": 200,
+      "ms": 536,
+      "recordsTotal": 4,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Generate_IRN",
+          "url": "onlinenepalinvoices/submitInvoice",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Manage_E-Invoice_Portal_Credentials",
+          "url": "onlinenepalinvoices/manageCredentials",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Check_Credentials",
+          "url": "onlinenepalinvoices/generateToken",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Reset_Credentials",
+          "url": "onlinenepalinvoices/resetCredentials",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "E-Invoice Nepal Management",
+      "group": "user",
+      "entity": {
+        "key": "2",
+        "label": "Pradeep Kumar"
+      },
+      "status": 200,
+      "ms": 706,
+      "recordsTotal": 4,
+      "blockedCount": 4,
+      "actions": [
+        {
+          "action": "Generate_IRN",
+          "url": "onlinenepalinvoices/submitInvoice",
+          "isBlocked": "1"
+        },
+        {
+          "action": "Manage_E-Invoice_Portal_Credentials",
+          "url": "onlinenepalinvoices/manageCredentials",
+          "isBlocked": "1"
+        },
+        {
+          "action": "Check_Credentials",
+          "url": "onlinenepalinvoices/generateToken",
+          "isBlocked": "1"
+        },
+        {
+          "action": "Reset_Credentials",
+          "url": "onlinenepalinvoices/resetCredentials",
+          "isBlocked": "1"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "SKU Grouping",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 542,
+      "recordsTotal": 6,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "View SKU Group Types",
+          "url": "groupskunittypes/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add SKU Group Type",
+          "url": "groupskunittypes/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit SKU Group Type",
+          "url": "groupskunittypes/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View SKU Groups",
+          "url": "groupskunits/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add SKU Groups",
+          "url": "groupskunits/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit SKU Groups",
+          "url": "groupskunits/edit",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "SKU Grouping",
+      "group": "designation",
+      "entity": {
+        "key": "1",
+        "label": "DSM"
+      },
+      "status": 200,
+      "ms": 534,
+      "recordsTotal": 6,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "View SKU Group Types",
+          "url": "groupskunittypes/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add SKU Group Type",
+          "url": "groupskunittypes/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit SKU Group Type",
+          "url": "groupskunittypes/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View SKU Groups",
+          "url": "groupskunits/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add SKU Groups",
+          "url": "groupskunits/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit SKU Groups",
+          "url": "groupskunits/edit",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "SKU Grouping",
+      "group": "user",
+      "entity": {
+        "key": "2",
+        "label": "Pradeep Kumar"
+      },
+      "status": 200,
+      "ms": 886,
+      "recordsTotal": 6,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "View SKU Group Types",
+          "url": "groupskunittypes/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add SKU Group Type",
+          "url": "groupskunittypes/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit SKU Group Type",
+          "url": "groupskunittypes/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View SKU Groups",
+          "url": "groupskunits/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add SKU Groups",
+          "url": "groupskunits/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit SKU Groups",
+          "url": "groupskunits/edit",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Scheme Capping Configuration",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 532,
+      "recordsTotal": 3,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Add_Configuration",
+          "url": "schemecappingconfigurations/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View_Configurations",
+          "url": "schemecappingconfigurations/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit_Configuration",
+          "url": "schemecappingconfigurations/edit",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Scheme Capping Configuration",
+      "group": "designation",
+      "entity": {
+        "key": "1",
+        "label": "DSM"
+      },
+      "status": 200,
+      "ms": 555,
+      "recordsTotal": 3,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Add_Configuration",
+          "url": "schemecappingconfigurations/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View_Configurations",
+          "url": "schemecappingconfigurations/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit_Configuration",
+          "url": "schemecappingconfigurations/edit",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Scheme Capping Configuration",
+      "group": "user",
+      "entity": {
+        "key": "2",
+        "label": "Pradeep Kumar"
+      },
+      "status": 200,
+      "ms": 694,
+      "recordsTotal": 3,
+      "blockedCount": 3,
+      "actions": [
+        {
+          "action": "Add_Configuration",
+          "url": "schemecappingconfigurations/add",
+          "isBlocked": "1"
+        },
+        {
+          "action": "View_Configurations",
+          "url": "schemecappingconfigurations/index",
+          "isBlocked": "1"
+        },
+        {
+          "action": "Edit_Configuration",
+          "url": "schemecappingconfigurations/edit",
+          "isBlocked": "1"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Payee Configuration",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 548,
+      "recordsTotal": 1,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "index",
+          "url": "payeedetails/index",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Payee Configuration",
+      "group": "designation",
+      "entity": {
+        "key": "1",
+        "label": "DSM"
+      },
+      "status": 200,
+      "ms": 532,
+      "recordsTotal": 1,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "index",
+          "url": "payeedetails/index",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Payee Configuration",
+      "group": "user",
+      "entity": {
+        "key": "2",
+        "label": "Pradeep Kumar"
+      },
+      "status": 200,
+      "ms": 730,
+      "recordsTotal": 1,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "index",
+          "url": "payeedetails/index",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Town Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 543,
+      "recordsTotal": 3,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "index",
+          "url": "towns/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "add",
+          "url": "towns/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "edit",
+          "url": "towns/edit",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Town Management",
+      "group": "designation",
+      "entity": {
+        "key": "1",
+        "label": "DSM"
+      },
+      "status": 200,
+      "ms": 544,
+      "recordsTotal": 3,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "index",
+          "url": "towns/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "add",
+          "url": "towns/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "edit",
+          "url": "towns/edit",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Town Management",
+      "group": "user",
+      "entity": {
+        "key": "2",
+        "label": "Pradeep Kumar"
+      },
+      "status": 200,
+      "ms": 667,
+      "recordsTotal": 3,
+      "blockedCount": 3,
+      "actions": [
+        {
+          "action": "index",
+          "url": "towns/index",
+          "isBlocked": "1"
+        },
+        {
+          "action": "add",
+          "url": "towns/add",
+          "isBlocked": "1"
+        },
+        {
+          "action": "edit",
+          "url": "towns/edit",
+          "isBlocked": "1"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Business Types Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 608,
+      "recordsTotal": 4,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "View_Business_Types",
+          "url": "businesstypes/view",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit_Business_Types",
+          "url": "businesstypes/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_Businesstypes",
+          "url": "businesstypes/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_businesstype ",
+          "url": "businesstypes/add",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Business Types Management",
+      "group": "designation",
+      "entity": {
+        "key": "1",
+        "label": "DSM"
+      },
+      "status": 200,
+      "ms": 807,
+      "recordsTotal": 4,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "View_Business_Types",
+          "url": "businesstypes/view",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit_Business_Types",
+          "url": "businesstypes/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_Businesstypes",
+          "url": "businesstypes/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_businesstype ",
+          "url": "businesstypes/add",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Business Types Management",
+      "group": "user",
+      "entity": {
+        "key": "2",
+        "label": "Pradeep Kumar"
+      },
+      "status": 200,
+      "ms": 690,
+      "recordsTotal": 4,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "View_Business_Types",
+          "url": "businesstypes/view",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit_Business_Types",
+          "url": "businesstypes/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_Businesstypes",
+          "url": "businesstypes/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_businesstype ",
+          "url": "businesstypes/add",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Scheme",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 919,
+      "recordsTotal": 8,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Add_Scheme_new",
+          "url": "schemes/addscheme",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_Scheme_if_multischemedisable",
+          "url": "schemes/addnew",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_Trade_scheme",
+          "url": "schemes/addtradescheme",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Apply_QPS_view",
+          "url": "schemes/applyqpsview",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View_scheme",
+          "url": "schemes/viewscheme",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Scheme_index",
+          "url": "schemes/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Scheme_budget",
+          "url": "schemebudgets/upload",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Assign_scheme",
+          "url": "schemes/assignnewscheme",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Scheme",
+      "group": "designation",
+      "entity": {
+        "key": "1",
+        "label": "DSM"
+      },
+      "status": 200,
+      "ms": 3123,
+      "recordsTotal": 8,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Add_Scheme_new",
+          "url": "schemes/addscheme",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_Scheme_if_multischemedisable",
+          "url": "schemes/addnew",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_Trade_scheme",
+          "url": "schemes/addtradescheme",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Apply_QPS_view",
+          "url": "schemes/applyqpsview",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View_scheme",
+          "url": "schemes/viewscheme",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Scheme_index",
+          "url": "schemes/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Scheme_budget",
+          "url": "schemebudgets/upload",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Assign_scheme",
+          "url": "schemes/assignnewscheme",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Scheme",
+      "group": "user",
+      "entity": {
+        "key": "2",
+        "label": "Pradeep Kumar"
+      },
+      "status": 200,
+      "ms": 2851,
+      "recordsTotal": 8,
+      "blockedCount": 3,
+      "actions": [
+        {
+          "action": "Add_Scheme_new",
+          "url": "schemes/addscheme",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_Scheme_if_multischemedisable",
+          "url": "schemes/addnew",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_Trade_scheme",
+          "url": "schemes/addtradescheme",
+          "isBlocked": "1"
+        },
+        {
+          "action": "Apply_QPS_view",
+          "url": "schemes/applyqpsview",
+          "isBlocked": "1"
+        },
+        {
+          "action": "View_scheme",
+          "url": "schemes/viewscheme",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Scheme_index",
+          "url": "schemes/index",
+          "isBlocked": "1"
+        },
+        {
+          "action": "Scheme_budget",
+          "url": "schemebudgets/upload",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Assign_scheme",
+          "url": "schemes/assignnewscheme",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Schemegroups",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 2611,
+      "recordsTotal": 4,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Index_Schemegroups",
+          "url": "schemegroups/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "New_index_schemegroups",
+          "url": "schemegroups/indexnew",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Index_trade_schemegroups",
+          "url": "schemegroups/indextrade",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Approve_for_schemegroup",
+          "url": "schemegroups/approve",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Schemegroups",
+      "group": "designation",
+      "entity": {
+        "key": "1",
+        "label": "DSM"
+      },
+      "status": 200,
+      "ms": 3526,
+      "recordsTotal": 4,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Index_Schemegroups",
+          "url": "schemegroups/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "New_index_schemegroups",
+          "url": "schemegroups/indexnew",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Index_trade_schemegroups",
+          "url": "schemegroups/indextrade",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Approve_for_schemegroup",
+          "url": "schemegroups/approve",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Schemegroups",
+      "group": "user",
+      "entity": {
+        "key": "2",
+        "label": "Pradeep Kumar"
+      },
+      "status": 200,
+      "ms": 3833,
+      "recordsTotal": 4,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Index_Schemegroups",
+          "url": "schemegroups/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "New_index_schemegroups",
+          "url": "schemegroups/indexnew",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Index_trade_schemegroups",
+          "url": "schemegroups/indextrade",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Approve_for_schemegroup",
+          "url": "schemegroups/approve",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Asset Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 1551,
+      "recordsTotal": 13,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "NewAssetAssign",
+          "url": "assets/newassetsassign",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Assetserialnumbermappings_Index",
+          "url": "assetserialnumbermappings/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Assetserialnumbermappings_Edit",
+          "url": "assetserialnumbermappings/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Assetserialnumbertransactions_Index",
+          "url": "assetserialnumbertransactions/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Transitstates_Index",
+          "url": "transitstates/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Transitstates_Edit",
+          "url": "transitstates/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Asset_Audit_Report",
+          "url": "assetaudits/assetauditreport",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Asset_Order_Report",
+          "url": "assetorders/assetorderreport",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_Asset",
+          "url": "assets/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_Assets",
+          "url": "assets/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit_Existing_Asset",
+          "url": "assets/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View_Asset ",
+          "url": "assets/view",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Assign_assets",
+          "url": "assets/assetsassign",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Asset Management",
+      "group": "designation",
+      "entity": {
+        "key": "1",
+        "label": "DSM"
+      },
+      "status": 200,
+      "ms": 1018,
+      "recordsTotal": 13,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "NewAssetAssign",
+          "url": "assets/newassetsassign",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Assetserialnumbermappings_Index",
+          "url": "assetserialnumbermappings/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Assetserialnumbermappings_Edit",
+          "url": "assetserialnumbermappings/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Assetserialnumbertransactions_Index",
+          "url": "assetserialnumbertransactions/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Transitstates_Index",
+          "url": "transitstates/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Transitstates_Edit",
+          "url": "transitstates/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Asset_Audit_Report",
+          "url": "assetaudits/assetauditreport",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Asset_Order_Report",
+          "url": "assetorders/assetorderreport",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_Asset",
+          "url": "assets/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_Assets",
+          "url": "assets/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit_Existing_Asset",
+          "url": "assets/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View_Asset ",
+          "url": "assets/view",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Assign_assets",
+          "url": "assets/assetsassign",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Asset Management",
+      "group": "user",
+      "entity": {
+        "key": "2",
+        "label": "Pradeep Kumar"
+      },
+      "status": 200,
+      "ms": 720,
+      "recordsTotal": 13,
+      "blockedCount": 6,
+      "actions": [
+        {
+          "action": "NewAssetAssign",
+          "url": "assets/newassetsassign",
+          "isBlocked": "1"
+        },
+        {
+          "action": "Assetserialnumbermappings_Index",
+          "url": "assetserialnumbermappings/index",
+          "isBlocked": "1"
+        },
+        {
+          "action": "Assetserialnumbermappings_Edit",
+          "url": "assetserialnumbermappings/edit",
+          "isBlocked": "1"
+        },
+        {
+          "action": "Assetserialnumbertransactions_Index",
+          "url": "assetserialnumbertransactions/index",
+          "isBlocked": "1"
+        },
+        {
+          "action": "Transitstates_Index",
+          "url": "transitstates/index",
+          "isBlocked": "1"
+        },
+        {
+          "action": "Transitstates_Edit",
+          "url": "transitstates/edit",
+          "isBlocked": "1"
+        },
+        {
+          "action": "Asset_Audit_Report",
+          "url": "assetaudits/assetauditreport",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Asset_Order_Report",
+          "url": "assetorders/assetorderreport",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_Asset",
+          "url": "assets/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_Assets",
+          "url": "assets/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit_Existing_Asset",
+          "url": "assets/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View_Asset ",
+          "url": "assets/view",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Assign_assets",
+          "url": "assets/assetsassign",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "skulines Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 552,
+      "recordsTotal": 3,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "skuline_add",
+          "url": "skulines/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "skuline_Index",
+          "url": "skulines/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "skuline_Edit",
+          "url": "skulines/edit",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "skulines Management",
+      "group": "designation",
+      "entity": {
+        "key": "1",
+        "label": "DSM"
+      },
+      "status": 200,
+      "ms": 574,
+      "recordsTotal": 3,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "skuline_add",
+          "url": "skulines/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "skuline_Index",
+          "url": "skulines/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "skuline_Edit",
+          "url": "skulines/edit",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "skulines Management",
+      "group": "user",
+      "entity": {
+        "key": "2",
+        "label": "Pradeep Kumar"
+      },
+      "status": 200,
+      "ms": 676,
+      "recordsTotal": 3,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "skuline_add",
+          "url": "skulines/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "skuline_Index",
+          "url": "skulines/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "skuline_Edit",
+          "url": "skulines/edit",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Skunit Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 616,
+      "recordsTotal": 33,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "SKU_Add",
+          "url": "skunits/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "SKU_Edit",
+          "url": "skunits/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "SKU_List",
+          "url": "skunits/ajaxskuindex",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Categories_Add",
+          "url": "categories/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "SubCategory_Add",
+          "url": "subcategories/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Brands Wub_Add",
+          "url": "brands/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Packing_Add",
+          "url": "packagings/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Subpacks_Add",
+          "url": "subpacks/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Units_Add",
+          "url": "units/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "ERP Groups_Add",
+          "url": "erpgroups/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Size_Add",
+          "url": "sizes/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Variant_Add",
+          "url": "variants/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Category_Edit",
+          "url": "categories/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "SubCategory_Edit",
+          "url": "subcategories/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Brands/Wub_Edit",
+          "url": "brands/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Packing_Edit",
+          "url": "packagings/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Subpacks_Edit",
+          "url": "subpacks/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Units_Edit",
+          "url": "units/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "ERP Groups_Edit",
+          "url": "erpgroups/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit Sizes",
+          "url": "sizes/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit Variant",
+          "url": "variants/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Category_View",
+          "url": "categories/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "SubCategory_View",
+          "url": "subcategories/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Brands/Wub_View",
+          "url": "brands/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Packing_View",
+          "url": "packagings/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Subpacks_View",
+          "url": "subpacks/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Units_View",
+          "url": "units/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "ERP Groups_View",
+          "url": "erpgroups/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View Sizes",
+          "url": "sizes/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View Variants",
+          "url": "variants/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_competitor_sku ",
+          "url": "competitorskunits/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Price_change_Report",
+          "url": "skunits/getpricechangehistory",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Change_SKU_Order",
+          "url": "skunits/reordersku",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Skunit Management",
+      "group": "designation",
+      "entity": {
+        "key": "1",
+        "label": "DSM"
+      },
+      "status": 200,
+      "ms": 636,
+      "recordsTotal": 33,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "SKU_Add",
+          "url": "skunits/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "SKU_Edit",
+          "url": "skunits/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "SKU_List",
+          "url": "skunits/ajaxskuindex",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Categories_Add",
+          "url": "categories/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "SubCategory_Add",
+          "url": "subcategories/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Brands Wub_Add",
+          "url": "brands/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Packing_Add",
+          "url": "packagings/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Subpacks_Add",
+          "url": "subpacks/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Units_Add",
+          "url": "units/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "ERP Groups_Add",
+          "url": "erpgroups/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Size_Add",
+          "url": "sizes/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Variant_Add",
+          "url": "variants/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Category_Edit",
+          "url": "categories/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "SubCategory_Edit",
+          "url": "subcategories/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Brands/Wub_Edit",
+          "url": "brands/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Packing_Edit",
+          "url": "packagings/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Subpacks_Edit",
+          "url": "subpacks/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Units_Edit",
+          "url": "units/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "ERP Groups_Edit",
+          "url": "erpgroups/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit Sizes",
+          "url": "sizes/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit Variant",
+          "url": "variants/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Category_View",
+          "url": "categories/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "SubCategory_View",
+          "url": "subcategories/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Brands/Wub_View",
+          "url": "brands/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Packing_View",
+          "url": "packagings/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Subpacks_View",
+          "url": "subpacks/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Units_View",
+          "url": "units/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "ERP Groups_View",
+          "url": "erpgroups/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View Sizes",
+          "url": "sizes/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View Variants",
+          "url": "variants/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_competitor_sku ",
+          "url": "competitorskunits/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Price_change_Report",
+          "url": "skunits/getpricechangehistory",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Change_SKU_Order",
+          "url": "skunits/reordersku",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Skunit Management",
+      "group": "user",
+      "entity": {
+        "key": "2",
+        "label": "Pradeep Kumar"
+      },
+      "status": 200,
+      "ms": 791,
+      "recordsTotal": 33,
+      "blockedCount": 30,
+      "actions": [
+        {
+          "action": "SKU_Add",
+          "url": "skunits/add",
+          "isBlocked": "1"
+        },
+        {
+          "action": "SKU_Edit",
+          "url": "skunits/edit",
+          "isBlocked": "1"
+        },
+        {
+          "action": "SKU_List",
+          "url": "skunits/ajaxskuindex",
+          "isBlocked": "1"
+        },
+        {
+          "action": "Categories_Add",
+          "url": "categories/add",
+          "isBlocked": "1"
+        },
+        {
+          "action": "SubCategory_Add",
+          "url": "subcategories/add",
+          "isBlocked": "1"
+        },
+        {
+          "action": "Brands Wub_Add",
+          "url": "brands/add",
+          "isBlocked": "1"
+        },
+        {
+          "action": "Packing_Add",
+          "url": "packagings/add",
+          "isBlocked": "1"
+        },
+        {
+          "action": "Subpacks_Add",
+          "url": "subpacks/add",
+          "isBlocked": "1"
+        },
+        {
+          "action": "Units_Add",
+          "url": "units/add",
+          "isBlocked": "1"
+        },
+        {
+          "action": "ERP Groups_Add",
+          "url": "erpgroups/add",
+          "isBlocked": "1"
+        },
+        {
+          "action": "Size_Add",
+          "url": "sizes/add",
+          "isBlocked": "1"
+        },
+        {
+          "action": "Variant_Add",
+          "url": "variants/add",
+          "isBlocked": "1"
+        },
+        {
+          "action": "Category_Edit",
+          "url": "categories/edit",
+          "isBlocked": "1"
+        },
+        {
+          "action": "SubCategory_Edit",
+          "url": "subcategories/edit",
+          "isBlocked": "1"
+        },
+        {
+          "action": "Brands/Wub_Edit",
+          "url": "brands/edit",
+          "isBlocked": "1"
+        },
+        {
+          "action": "Packing_Edit",
+          "url": "packagings/edit",
+          "isBlocked": "1"
+        },
+        {
+          "action": "Subpacks_Edit",
+          "url": "subpacks/edit",
+          "isBlocked": "1"
+        },
+        {
+          "action": "Units_Edit",
+          "url": "units/edit",
+          "isBlocked": "1"
+        },
+        {
+          "action": "ERP Groups_Edit",
+          "url": "erpgroups/edit",
+          "isBlocked": "1"
+        },
+        {
+          "action": "Edit Sizes",
+          "url": "sizes/edit",
+          "isBlocked": "1"
+        },
+        {
+          "action": "Edit Variant",
+          "url": "variants/edit",
+          "isBlocked": "1"
+        },
+        {
+          "action": "Category_View",
+          "url": "categories/index",
+          "isBlocked": "1"
+        },
+        {
+          "action": "SubCategory_View",
+          "url": "subcategories/index",
+          "isBlocked": "1"
+        },
+        {
+          "action": "Brands/Wub_View",
+          "url": "brands/index",
+          "isBlocked": "1"
+        },
+        {
+          "action": "Packing_View",
+          "url": "packagings/index",
+          "isBlocked": "1"
+        },
+        {
+          "action": "Subpacks_View",
+          "url": "subpacks/index",
+          "isBlocked": "1"
+        },
+        {
+          "action": "Units_View",
+          "url": "units/index",
+          "isBlocked": "1"
+        },
+        {
+          "action": "ERP Groups_View",
+          "url": "erpgroups/index",
+          "isBlocked": "1"
+        },
+        {
+          "action": "View Sizes",
+          "url": "sizes/index",
+          "isBlocked": "1"
+        },
+        {
+          "action": "View Variants",
+          "url": "variants/index",
+          "isBlocked": "1"
+        },
+        {
+          "action": "Add_new_competitor_sku ",
+          "url": "competitorskunits/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Price_change_Report",
+          "url": "skunits/getpricechangehistory",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Change_SKU_Order",
+          "url": "skunits/reordersku",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Salereturn Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 535,
+      "recordsTotal": 3,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Salesman_Sale_Returns",
+          "url": "salemansalesreturns/salereturns",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Salesman_Sale_Returns_Primary",
+          "url": "salemansalesreturns/salereturns/primarysalereturn",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Sale_Return_Requests",
+          "url": "salereturnrequests/index",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Salereturn Management",
+      "group": "designation",
+      "entity": {
+        "key": "1",
+        "label": "DSM"
+      },
+      "status": 200,
+      "ms": 669,
+      "recordsTotal": 3,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Salesman_Sale_Returns",
+          "url": "salemansalesreturns/salereturns",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Salesman_Sale_Returns_Primary",
+          "url": "salemansalesreturns/salereturns/primarysalereturn",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Sale_Return_Requests",
+          "url": "salereturnrequests/index",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Salereturn Management",
+      "group": "user",
+      "entity": {
+        "key": "2",
+        "label": "Pradeep Kumar"
+      },
+      "status": 200,
+      "ms": 804,
+      "recordsTotal": 3,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Salesman_Sale_Returns",
+          "url": "salemansalesreturns/salereturns",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Salesman_Sale_Returns_Primary",
+          "url": "salemansalesreturns/salereturns/primarysalereturn",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Sale_Return_Requests",
+          "url": "salereturnrequests/index",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Credit Note Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 537,
+      "recordsTotal": 2,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Add_new_Credit_Note",
+          "url": "cdnotes/addcreditnote",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Credit_and_Debit_notes",
+          "url": "cdnotes/creditanddebitnotes",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Credit Note Management",
+      "group": "designation",
+      "entity": {
+        "key": "1",
+        "label": "DSM"
+      },
+      "status": 200,
+      "ms": 542,
+      "recordsTotal": 2,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Add_new_Credit_Note",
+          "url": "cdnotes/addcreditnote",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Credit_and_Debit_notes",
+          "url": "cdnotes/creditanddebitnotes",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Credit Note Management",
+      "group": "user",
+      "entity": {
+        "key": "2",
+        "label": "Pradeep Kumar"
+      },
+      "status": 200,
+      "ms": 672,
+      "recordsTotal": 2,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Add_new_Credit_Note",
+          "url": "cdnotes/addcreditnote",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Credit_and_Debit_notes",
+          "url": "cdnotes/creditanddebitnotes",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Workflow Reasons Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 568,
+      "recordsTotal": 2,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "List_of_Workflowreasons",
+          "url": "workflowreasons/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_workflowreason",
+          "url": "workflowreasons/add",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Workflow Reasons Management",
+      "group": "designation",
+      "entity": {
+        "key": "1",
+        "label": "DSM"
+      },
+      "status": 200,
+      "ms": 534,
+      "recordsTotal": 2,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "List_of_Workflowreasons",
+          "url": "workflowreasons/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_workflowreason",
+          "url": "workflowreasons/add",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Workflow Reasons Management",
+      "group": "user",
+      "entity": {
+        "key": "2",
+        "label": "Pradeep Kumar"
+      },
+      "status": 200,
+      "ms": 709,
+      "recordsTotal": 2,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "List_of_Workflowreasons",
+          "url": "workflowreasons/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_workflowreason",
+          "url": "workflowreasons/add",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Batches Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 549,
+      "recordsTotal": 4,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "List_of_Batches",
+          "url": "batches/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_Batch",
+          "url": "batches/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit_existing_Batch",
+          "url": "batches/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View_the_batch",
+          "url": "batches/view",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Batches Management",
+      "group": "designation",
+      "entity": {
+        "key": "1",
+        "label": "DSM"
+      },
+      "status": 200,
+      "ms": 647,
+      "recordsTotal": 4,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "List_of_Batches",
+          "url": "batches/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_Batch",
+          "url": "batches/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit_existing_Batch",
+          "url": "batches/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View_the_batch",
+          "url": "batches/view",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Batches Management",
+      "group": "user",
+      "entity": {
+        "key": "2",
+        "label": "Pradeep Kumar"
+      },
+      "status": 200,
+      "ms": 758,
+      "recordsTotal": 4,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "List_of_Batches",
+          "url": "batches/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_Batch",
+          "url": "batches/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit_existing_Batch",
+          "url": "batches/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "View_the_batch",
+          "url": "batches/view",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "MDM Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 534,
+      "recordsTotal": 1,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "MDM_Page",
+          "url": "mdms/index",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "MDM Management",
+      "group": "designation",
+      "entity": {
+        "key": "1",
+        "label": "DSM"
+      },
+      "status": 200,
+      "ms": 539,
+      "recordsTotal": 1,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "MDM_Page",
+          "url": "mdms/index",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "MDM Management",
+      "group": "user",
+      "entity": {
+        "key": "2",
+        "label": "Pradeep Kumar"
+      },
+      "status": 200,
+      "ms": 677,
+      "recordsTotal": 1,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "MDM_Page",
+          "url": "mdms/index",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Collateral Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 532,
+      "recordsTotal": 4,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "List_of_Pops",
+          "url": "pops/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_Pop",
+          "url": "pops/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit_Existing_pop",
+          "url": "pops/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_Collaterals",
+          "url": "collaterals/index",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Collateral Management",
+      "group": "designation",
+      "entity": {
+        "key": "1",
+        "label": "DSM"
+      },
+      "status": 200,
+      "ms": 543,
+      "recordsTotal": 4,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "List_of_Pops",
+          "url": "pops/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_Pop",
+          "url": "pops/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit_Existing_pop",
+          "url": "pops/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_Collaterals",
+          "url": "collaterals/index",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Collateral Management",
+      "group": "user",
+      "entity": {
+        "key": "2",
+        "label": "Pradeep Kumar"
+      },
+      "status": 200,
+      "ms": 689,
+      "recordsTotal": 4,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "List_of_Pops",
+          "url": "pops/index",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Add_new_Pop",
+          "url": "pops/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit_Existing_pop",
+          "url": "pops/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "List_of_Collaterals",
+          "url": "collaterals/index",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Vehicle Management",
+      "group": "role",
+      "entity": {
+        "key": "1",
+        "label": "ADMIN"
+      },
+      "status": 200,
+      "ms": 543,
+      "recordsTotal": 4,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Add_New_Vehicle",
+          "url": "vehicles/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit_Existing_Vehicle",
+          "url": "vehicles/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Delete_Existing_Vehicle",
+          "url": "vehicles/delete",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Map_User_To_Vehicle",
+          "url": "vehicles/mapUsertoVehicle",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Vehicle Management",
+      "group": "designation",
+      "entity": {
+        "key": "1",
+        "label": "DSM"
+      },
+      "status": 200,
+      "ms": 721,
+      "recordsTotal": 4,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Add_New_Vehicle",
+          "url": "vehicles/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit_Existing_Vehicle",
+          "url": "vehicles/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Delete_Existing_Vehicle",
+          "url": "vehicles/delete",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Map_User_To_Vehicle",
+          "url": "vehicles/mapUsertoVehicle",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    },
+    {
+      "module": "Vehicle Management",
+      "group": "user",
+      "entity": {
+        "key": "2",
+        "label": "Pradeep Kumar"
+      },
+      "status": 200,
+      "ms": 676,
+      "recordsTotal": 4,
+      "blockedCount": 0,
+      "actions": [
+        {
+          "action": "Add_New_Vehicle",
+          "url": "vehicles/add",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Edit_Existing_Vehicle",
+          "url": "vehicles/edit",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Delete_Existing_Vehicle",
+          "url": "vehicles/delete",
+          "isBlocked": "0"
+        },
+        {
+          "action": "Map_User_To_Vehicle",
+          "url": "vehicles/mapUsertoVehicle",
+          "isBlocked": "0"
+        }
+      ],
+      "pass": true,
+      "errors": []
+    }
+  ]
+}

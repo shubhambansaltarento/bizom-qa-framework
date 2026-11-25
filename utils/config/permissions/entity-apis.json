@@ -1,0 +1,5 @@
+{
+  "role": "/settings/getRoleName",
+  "designation": "/designations/getDesignations",
+  "user": "/users/getUsersByFilterAPI"
+}
